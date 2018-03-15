@@ -1,15 +1,32 @@
-import { APP_NAV } from './app.nav'
 import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
-import { AppComponent } from './app.component'
 import { HttpClientModule } from '@angular/common/http'
+import { SharedModule } from 'App/_shared/_shared.module'
 import { BrowserModule } from '@angular/platform-browser'
-import { environment } from '../environments/environment'
 import { ServiceWorkerModule } from '@angular/service-worker'
 
+import { FaqModule } from 'FAQ/faq.module'
+import { MainModule } from 'Main/main.module'
+import { AppComponent } from 'App/app.component'
+import { AboutModule } from 'About/About.module'
+import { HadithModule } from 'Hadith/hadith.module'
+import { DonationModule } from 'Donation/donation.module'
+import { ContactDeveloperModule } from 'ContactDeveloper/contact-developer.module'
+
+import { APP_NAV } from 'App/app.nav'
+import { environment } from 'Environments/environment'
+
 @NgModule({
-    declarations: [AppComponent],
+    declarations: [ AppComponent ],
     imports: [
+        FaqModule,
+        AboutModule,
+        MainModule,
+        HadithModule,
+        DonationModule,
+        ContactDeveloperModule,
+
+        SharedModule,
         BrowserModule,
         HttpClientModule,
         RouterModule.forRoot(APP_NAV),
@@ -18,6 +35,7 @@ import { ServiceWorkerModule } from '@angular/service-worker'
         }),
     ],
     providers: [],
-    bootstrap: [AppComponent],
+    bootstrap: [ AppComponent ],
 })
-export class AppModule {}
+export class AppModule {
+}
