@@ -5,4 +5,4 @@ export const DONATION_NAV: Routes = [
         path: 'admin',
         loadChildren: './admin/admin.module#AdminModule',
     }
-];
+]
