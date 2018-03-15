@@ -6,10 +6,10 @@ import { BrowserModule } from '@angular/platform-browser'
 import { ServiceWorkerModule } from '@angular/service-worker'
 
 import { FaqModule } from 'FAQ/faq.module'
-import { MainModule } from 'Main/main.module'
 import { AppComponent } from 'App/app.component'
-import { AboutModule } from 'About/About.module'
+import { AboutModule } from 'About/about.module'
 import { HadithModule } from 'Hadith/hadith.module'
+import { LandingModule } from 'Landing/landing.module'
 import { DonationModule } from 'Donation/donation.module'
 import { ContactDeveloperModule } from 'ContactDeveloper/contact-developer.module'
 
@@ -21,8 +21,8 @@ import { environment } from 'Environments/environment'
     imports: [
         FaqModule,
         AboutModule,
-        MainModule,
         HadithModule,
+        LandingModule,
         DonationModule,
         ContactDeveloperModule,
 

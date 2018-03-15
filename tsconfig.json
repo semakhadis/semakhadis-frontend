@@ -15,11 +15,22 @@
             "Interfaces/*": ["app/_shared/interfaces/*"],
 
             "About/*": ["app/about/*"],
+            "About/c/*": ["app/about/components/*"],
+
             "ContactDeveloper/*": ["app/contact-developer/*"],
+            "ContactDeveloper/c/*": ["app/contact-developer/components/*"],
+
             "Donation/*": ["app/donation/*"],
+            "Donation/c/*": ["app/donation/components/*"],
+
             "FAQ/*": ["app/faq/*"],
+            "FAQ/c/*": ["app/faq/*"],
+
             "Hadith/*": ["app/hadith/*"],
-            "Main/*": ["app/main/*"]
+            "Hadith/c/*": ["app/hadith/components/*"],
+
+            "Landing/*": ["app/landing/*"],
+            "Landing/c/*": ["app/landing/components/*"]
         },
         "sourceMap": true,
         "declaration": false,
