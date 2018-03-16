@@ -4,14 +4,9 @@ import { HttpClientModule } from '@angular/common/http'
 import { SharedModule } from 'App/_shared/_shared.module'
 import { BrowserModule } from '@angular/platform-browser'
 import { ServiceWorkerModule } from '@angular/service-worker'
+import { LocationStrategy, PathLocationStrategy } from '@angular/common'
 
-import { FaqModule } from 'FAQ/faq.module'
 import { AppComponent } from 'App/app.component'
-import { AboutModule } from 'About/about.module'
-import { HadithModule } from 'Hadith/hadith.module'
-import { LandingModule } from 'Landing/landing.module'
-import { DonationModule } from 'Donation/donation.module'
-import { ContactDeveloperModule } from 'ContactDeveloper/contact-developer.module'
 
 import { APP_NAV } from 'App/app.nav'
 import { environment } from 'Environments/environment'
@@ -19,13 +14,6 @@ import { environment } from 'Environments/environment'
 @NgModule({
     declarations: [ AppComponent ],
     imports: [
-        FaqModule,
-        AboutModule,
-        HadithModule,
-        LandingModule,
-        DonationModule,
-        ContactDeveloperModule,
-
         SharedModule,
         BrowserModule,
         HttpClientModule,
@@ -34,7 +22,9 @@ import { environment } from 'Environments/environment'
             enabled: environment.production,
         }),
     ],
-    providers: [],
+    providers: [
+        { provide: LocationStrategy, useClass: PathLocationStrategy },
+    ],
     bootstrap: [ AppComponent ],
 })
 export class AppModule {

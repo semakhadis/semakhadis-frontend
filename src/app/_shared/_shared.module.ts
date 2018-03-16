@@ -3,7 +3,11 @@ import { FormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 
-const sharedComponent = []
+import { NavbarComponent } from 'Components/navbar/navbar.component'
+
+const sharedComponent = [
+    NavbarComponent,
+]
 
 @NgModule({
     exports: [ ...sharedComponent ],

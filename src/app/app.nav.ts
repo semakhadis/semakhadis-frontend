@@ -1,26 +1,33 @@
 import { Routes } from '@angular/router'
+import { NavbarComponent } from 'Components/navbar/navbar.component'
 
 export const APP_NAV: Routes = [
-    {
+   {
         path: '',
-        loadChildren: './landing/landing.module#LandingModule',
-    }, {
-        path: 'about',
-        loadChildren: './about/about.module#AboutModule',
-    }, {
-        path: 'contact-developer',
-        loadChildren: './contact-developer/contact-developer.module#ContactDeveloperModule',
-    }, {
-        path: 'donation',
-        loadChildren: './donation/donation.module#DonationModule',
-    }, {
-        path: 'faq',
-        loadChildren: './faq/faq.module#FaqModule',
-    }, {
-        path: 'hadith',
-        loadChildren: './hadith/hadith.module#HadithModule',
-    },
-    { path: '**', redirectTo: '/404' },
+        component: NavbarComponent,
+        children: [
+             {
+                path: '',
+                loadChildren: './landing/landing.module#LandingModule',
+            }, {
+                path: 'about',
+                loadChildren: './about/about.module#AboutModule',
+            }, {
+                path: 'contact-developer',
+                loadChildren: './contact-developer/contact-developer.module#ContactDeveloperModule',
+            }, {
+                path: 'donation',
+                loadChildren: './donation/donation.module#DonationModule',
+            }, {
+                path: 'faq',
+                loadChildren: './faq/faq.module#FaqModule',
+            }, {
+                path: 'hadith',
+                loadChildren: './hadith/hadith.module#HadithModule',
+            },
+            { path: '**', redirectTo: '/404' },
+        ]
+    }
 ];
 
 /*
