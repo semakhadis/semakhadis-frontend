@@ -36,9 +36,7 @@
             "tsconfig": "tsconfig.app.json",
             "testTsconfig": "tsconfig.spec.json",
             "prefix": "v",
-            "styles": [
-                "styles.css"
-            ],
+            "styles": [],
             "scripts": [],
             "environmentSource": "environments/environment.ts",
             "environments": {
@@ -79,5 +77,5 @@
             "spec": false
         }
     },
-    "packageManager" : "yarn"
+    "packageManager": "yarn"
 }

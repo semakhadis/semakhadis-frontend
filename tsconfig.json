@@ -1,19 +1,45 @@
 {
-  "compileOnSave": false,
-  "compilerOptions": {
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom"
-    ]
-  }
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "./dist/out-tsc",
+        "baseUrl": "src",
+        "paths": {
+            "App/*": ["app/*"],
+            "Components/*": ["app/_shared/components/*"],
+            "Directives/*": ["app/_shared/directives/*"],
+            "Guards/*": ["app/_shared/guards/*"],
+            "Helpers/*": ["app/_shared/helpers/*"],
+            "Pipes/*": ["app/_shared/pipes/*"],
+            "Services/*": ["app/_shared/services/*"],
+            "Environments/*": ["environments/*"],
+            "Interfaces/*": ["app/_shared/interfaces/*"],
+
+            "About/*": ["app/about/*"],
+            "About/c/*": ["app/about/components/*"],
+
+            "ContactDeveloper/*": ["app/contact-developer/*"],
+            "ContactDeveloper/c/*": ["app/contact-developer/components/*"],
+
+            "Donation/*": ["app/donation/*"],
+            "Donation/c/*": ["app/donation/components/*"],
+
+            "FAQ/*": ["app/faq/*"],
+            "FAQ/c/*": ["app/faq/*"],
+
+            "Hadith/*": ["app/hadith/*"],
+            "Hadith/c/*": ["app/hadith/components/*"],
+
+            "Landing/*": ["app/landing/*"],
+            "Landing/c/*": ["app/landing/components/*"]
+        },
+        "sourceMap": true,
+        "declaration": false,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "typeRoots": ["node_modules/@types"],
+        "lib": ["es2017", "dom"]
+    }
 }

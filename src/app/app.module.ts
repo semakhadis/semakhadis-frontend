@@ -1,21 +1,43 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core'
+import { RouterModule } from '@angular/router'
+import { HttpClientModule } from '@angular/common/http'
+import { SharedModule } from 'App/_shared/_shared.module'
+import { BrowserModule } from '@angular/platform-browser'
+import { ServiceWorkerModule } from '@angular/service-worker'
+import { LocationStrategy, PathLocationStrategy } from '@angular/common'
 
+import { APP_NAV } from 'App/app.nav'
+import { environment } from 'Environments/environment'
 
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { AppComponent } from './app.component';
-
-import { environment } from '../environments/environment';
+import { AppComponent } from 'App/app.component'
+import { ApiService } from 'Services/api.service'
+import { AuthService } from 'Services/auth.service'
+import { HadithService } from 'Services/hadith.service'
+import { SearchService } from 'Services/search.service'
+import { DonationService } from 'Services/donation.service'
+import { AuthUserService } from 'Services/auth-user.service'
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [ AppComponent ],
+    imports: [
+        SharedModule,
+        BrowserModule,
+        HttpClientModule,
+        RouterModule.forRoot(APP_NAV),
+        ServiceWorkerModule.register('/ngsw-worker.js', {
+            enabled: environment.production,
+        }),
+    ],
+    providers: [
+        ApiService,
+        AuthService,
+        HadithService,
+        SearchService,
+        AuthUserService,
+        DonationService,
+        { provide: LocationStrategy, useClass: PathLocationStrategy },
+    ],
+    bootstrap: [ AppComponent ],
 })
-export class AppModule { }
+export class AppModule {
+}
