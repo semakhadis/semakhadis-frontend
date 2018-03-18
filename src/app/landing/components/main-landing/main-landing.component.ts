@@ -2,13 +2,7 @@ import { Component } from '@angular/core'
 
 @Component({
     template: `
-        main components works!
-        
-        <p><v-hero-search></v-hero-search></p>
-
-        <p><v-download-app></v-download-app></p>
-    `,
+        <v-hero-search></v-hero-search>
+    `
 })
-export class MainLandingComponent {
-
-}
+export class MainLandingComponent {}

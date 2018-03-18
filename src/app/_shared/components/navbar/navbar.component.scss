@@ -242,7 +242,7 @@
 
 .navbar-sh {
     position: relative;
-    margin-bottom: $navbar-margin-bottom;
+    height: $navbar-height;
 
     @include clearfix;
     .navbar-brand {
@@ -269,7 +269,6 @@
             &:hover,
             &:focus {
                 color: $navbar-default-link-active-color;
-                background-color: $navbar-default-link-active-bg;
             }
         }
         > .disabled > a {
@@ -348,4 +347,31 @@
 
 .navbar-base {
     background-color: $base-color-1;
+
+    .navbar-nav {
+        > li > a {
+            color: $white;
+
+            &:hover,
+            &:focus {
+                color: $navbar-default-link-hover-color;
+                background-color: $navbar-default-link-hover-bg;
+            }
+        }
+        > .active > a {
+            &,
+            &:hover,
+            &:focus {
+                color: $navbar-default-link-active-color;
+            }
+        }
+        > .disabled > a {
+            &,
+            &:hover,
+            &:focus {
+                color: $navbar-default-link-disabled-color;
+                background-color: $navbar-default-link-disabled-bg;
+            }
+        }
+    }
 }
