@@ -3,16 +3,25 @@
 @import '~scss/base/variables';
 
 .sh-hero-section {
-    min-height: 600px;
+    min-height: 500px;
     color: $white;
     text-align: center;
     background-image: url('assets/images/hero-bg.png');
+
+    @include media-breakpoint-up(md) {
+        min-height: 600px;
+    }
 
     .hero-title {
         margin-top: 100px;
         font-size: 50px;
         transition: width 200ms ease;
         margin-bottom: 10px;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 70px;
+            font-size: 40px;
+        }
 
         @include media-breakpoint-up(lg) {
             width: 50%;

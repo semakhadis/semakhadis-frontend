@@ -1,18 +1,17 @@
 <nav class="navbar navbar-sh navbar-light">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <input type="checkbox" id="navbar-toggle-cbox">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                aria-expanded="false">
+            <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
+            </label>
             <a class="navbar-brand" href="#">Brand</a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active">
@@ -51,9 +50,7 @@
                 </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
 <router-outlet></router-outlet>

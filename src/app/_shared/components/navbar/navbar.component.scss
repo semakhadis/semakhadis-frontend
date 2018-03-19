@@ -2,6 +2,14 @@
 @import '~scss/mixins/mixins';
 @import '~scss/base/variables';
 
+#navbar-toggle-cbox {
+    display: none;
+}
+
+#navbar-toggle-cbox:checked ~ .collapse {
+    display: block;
+}
+
 .navbar-header {
     @include clearfix;
 
