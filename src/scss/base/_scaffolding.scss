@@ -20,6 +20,7 @@
 html {
     font-size: 10px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow-x: hidden;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
     line-height: $line-height-base;
     color: $text-color;
     background-color: $body-bg;
+    overflow-x: hidden;
 }
 
 // Reset fonts for relevant elements
