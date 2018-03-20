@@ -6,7 +6,7 @@
     min-height: 500px;
     color: $white;
     text-align: center;
-    background-color: $base-gradient-color;
+    background: $base-gradient-color;
     background-image: url('assets/images/hero-bg.png');
 
     @include media-breakpoint-up(md) {
