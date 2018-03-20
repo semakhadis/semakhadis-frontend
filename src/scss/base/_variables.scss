@@ -17,7 +17,7 @@ $base-gradient-color: linear-gradient(-57deg, #28c0a9 0%, #2ca4ab 100%) !default
 $primary-color: $base-color-1 !default;
 $secondary-color: #f4e8b8 !default;
 
-$font-family-base: 'Colfax', 'Open Sans', sans-serif;
+$font-family-base: 'Colfax', 'Open Sans', sans-serif !default;
 
-$line-height-computed: 40px;
-$navbar-height: 70px;
+$line-height-computed: 40px !default;
+$navbar-height: 70px !default;

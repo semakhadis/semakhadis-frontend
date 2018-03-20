@@ -1,8 +1,4 @@
 section {
-    @include media-breakpoint-down(md) {
-        padding: 30px 20px;
-    }
-
     @include media-breakpoint-up(md) {
         padding: 50px;
     }
