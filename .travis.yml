@@ -1,0 +1,12 @@
+language: node_js
+
+branches: 
+  only: 
+   - master
+
+before_script:
+ - npm install
+ - ng build
+
+script:
+ - ng build --prod
