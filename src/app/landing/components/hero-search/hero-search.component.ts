@@ -2,10 +2,7 @@ import { Component } from '@angular/core'
 
 @Component({
     selector: 'v-hero-search',
-    template: `
-        Hero search works!
-    `,
+    templateUrl: 'hero-search.component.html',
+    styleUrls: ['hero-search.component.scss']
 })
-export class HeroSearchComponent {
-
-}
+export class HeroSearchComponent {}
