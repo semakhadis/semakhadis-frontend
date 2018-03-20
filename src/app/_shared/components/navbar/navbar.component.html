@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </label>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a routerLinkActive="active" class="navbar-brand" routerLink="/" [routerLinkActiveOptions]="{ exact: true }">Brand</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -31,22 +31,13 @@
             </form>
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a routerLinkActive="active" routerLink="/" [routerLinkActiveOptions]="{ exact: true }">Landing</a>
-                </li>
-                <li>
                     <a routerLinkActive="active" routerLink="/about">About</a>
                 </li>
                 <li>
-                    <a routerLinkActive="active" routerLink="/contact-developer">Contact Developer</a>
-                </li>
-                <li>
-                    <a routerLinkActive="active" routerLink="/donation">Donation</a>
+                    <a routerLinkActive="active" routerLink="/contact-developer">Contact</a>
                 </li>
                 <li>
                     <a routerLinkActive="active" routerLink="/faq">Faq</a>
-                </li>
-                <li>
-                    <a routerLinkActive="active" routerLink="/hadith">Hadith</a>
                 </li>
             </ul>
         </div>

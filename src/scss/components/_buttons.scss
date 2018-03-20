@@ -8,7 +8,7 @@
 .btn {
     display: inline-block;
     margin-bottom: 0; // For input.btn
-    font-weight: $btn-font-weight;
+    font-weight: 500 !important;
     text-align: center;
     vertical-align: middle;
     touch-action: manipulation;
@@ -16,13 +16,7 @@
     background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
     border: 1px solid transparent;
     white-space: nowrap;
-    @include button-size(
-        $padding-base-vertical,
-        $padding-base-horizontal,
-        $font-size-base,
-        $line-height-base,
-        $btn-border-radius-base
-    );
+    @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, 6px);
     @include user-select(none);
 
     &,
@@ -72,24 +66,11 @@ a.btn {
 .btn-default {
     @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
 }
-.btn-primary {
-    @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+.btn-base {
+    @include button-variant($white, $base-color-1, transparent);
 }
-// Success appears as green
-.btn-success {
-    @include button-variant($btn-success-color, $btn-success-bg, $btn-success-border);
-}
-// Info appears as blue-green
-.btn-info {
-    @include button-variant($btn-info-color, $btn-info-bg, $btn-info-border);
-}
-// Warning appears as orange
-.btn-warning {
-    @include button-variant($btn-warning-color, $btn-warning-bg, $btn-warning-border);
-}
-// Danger and error appear as red
-.btn-danger {
-    @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+.btn-secondary {
+    @include button-variant($black, $secondary-color, transparent);
 }
 
 // Link buttons
