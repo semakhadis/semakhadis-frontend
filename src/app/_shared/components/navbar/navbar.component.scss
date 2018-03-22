@@ -236,6 +236,7 @@
 .navbar-sh {
     position: relative;
     height: $navbar-height;
+    transition: all 200ms ease-in;
 
     @include clearfix;
     .navbar-brand {

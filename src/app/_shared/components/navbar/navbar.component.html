@@ -1,4 +1,4 @@
-<nav class="navbar navbar-sh navbar-light">
+<nav class="navbar navbar-sh" [ngClass]="isIndexRoute() ? 'navbar-light' : 'navbar-base'">
     <div class="container-fluid">
         <input type="checkbox" id="navbar-toggle-cbox">
         <div class="navbar-header">
@@ -35,10 +35,13 @@
                     <a routerLinkActive="active" routerLink="/about">About</a>
                 </li>
                 <li>
-                    <a routerLinkActive="active" routerLink="/contact-developer">Contact</a>
+                    <a>Kitab</a>
                 </li>
                 <li>
                     <a routerLinkActive="active" routerLink="/faq">Faq</a>
+                </li>
+                <li>
+                    <a routerLinkActive="active" routerLink="/contact-developer">Contact</a>
                 </li>
             </ul>
         </div>
