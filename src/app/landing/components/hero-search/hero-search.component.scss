@@ -55,8 +55,8 @@
             margin-right: auto;
         }
 
-        .input-group {
-            height: 80px;
+        .form-group {
+            position: relative;
         }
 
         .form-control {
@@ -67,6 +67,24 @@
             color: $secondary-color;
             @include placeholder($white);
             @include form-control-focus(transparent);
+        }
+
+        .help-block {
+            margin-top: 20px;
+            color: $white;
+            font-size: 15px;
+            font-weight: 100;
+
+            a {
+                color: $secondary-color;
+                border-bottom: 1px solid $secondary-color;
+                margin-left: 5px;
+                margin-right: 5px;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
         }
 
         .btn {
