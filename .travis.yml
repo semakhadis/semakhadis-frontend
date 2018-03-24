@@ -7,8 +7,15 @@ branches:
    - master
 
 before_script:
+ - npm install -g @angular/cli@~1.7.3
  - yarn install --prod
- - ng build
 
 script:
  - npm run build
+
+notifications:
+ email:
+     recipients:
+       - azrizhaziq@gmail.com
+     on_success: never # default: change
+     on_failure: always # default: always
