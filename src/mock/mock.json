@@ -1,5 +1,5 @@
 {
-    "hadiths": [
+    "hadith": [
         {
             "id": 100,
             "title": "sdasdfasdf",
@@ -12,7 +12,6 @@
             "slug": "asdfasdfasdfasdfg",
             "semakhadis_link": "sadfadfasdfa",
             "rujukan": [
-
             ],
             "status": "pending | draft | approved",
             "author": {
@@ -20,8 +19,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -69,8 +68,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -102,7 +101,7 @@
             "id": 20,
             "title": "Bila mana telah sampai pada sebuah majlis",
             "status_hadith": "Hasan",
-            "perawi" : "Abu Hurairah",
+            "perawi": "Abu Hurairah",
             "pengkaji-hadis": "",
             "text_arab": "إذا انتهَى أحدُكم إلى مجلِسٍ فليسلِّم، فإنَّ بَدا له أن يجلِسَ فليجلِس، ثمَّ إذا قامَ فليسلِّم فلَيسَتِ الأولَى بأحقِّ من الآخرةِ",
             "text_melayu": "Bila mana telah sampai pada sebuah majlis hendaklah mengucapkan salam, dan apabila ingin duduk maka duduklah, kemudian apabila ingin pergi maka ucaplah salam, sebab bukankah yang pertama itu lebih berhak daripada yang terakhir.",
@@ -119,8 +118,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -170,8 +169,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -219,8 +218,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -267,8 +266,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -317,8 +316,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -366,8 +365,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -418,8 +417,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -468,8 +467,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -514,8 +513,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -565,8 +564,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -617,8 +616,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -670,8 +669,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -722,8 +721,8 @@
                 "name": "",
                 "role": ""
             },
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -753,7 +752,6 @@
                 "Imam Al-Tirmizi di dalam kitabnya Sunan, jilid 2, m/s 66.",
                 "Imam Ibnu Nuaim di dalam kitabnya Syuab al-Iman, jilid 2, m/s 65.",
                 "Imam Ibnu Syaibah di dalam kitabnya Musannaf, jilid 7, m/s 65."
-
             ],
             "tag": []
         },
@@ -774,8 +772,8 @@
                 "role": ""
             },
             "semakhadis_link": "http://semakhadis.com/barangsiapa-menutupi-aib-seorang-muslim-maka-allah-akan-menutup-aibnya",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -824,8 +822,8 @@
                 "role": ""
             },
             "semakhadis_link": "http://semakhadis.com/seseorang-lelaki-yang-berkata-dengan-perkataan-supaya-rakannya-ketawa-maka-dia-dijatuhkan-ke-dalam-neraka-selama-70-tahun",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -871,8 +869,8 @@
                 "role": ""
             },
             "semakhadis_link": "http://semakhadis.com/ya-tuhanku-ini-bukan-buku-amalanku-kerana-aku-tidak-melihat-langsung-ketaatan-ku-tercatat-di-dalamnya",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -918,8 +916,8 @@
                 "role": ""
             },
             "semakhadis_link": "http://semakhadis.com/minumlah-sebelum-makan-nescaya-kalian-akan-kenyang",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -969,8 +967,8 @@
                 "role": ""
             },
             "semakhadis_link": "http://semakhadis.com/tidaklah-seorang-wanita-yang-mengalami-haidh-kecuali-haidhnya-itu-merupakan",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -1018,8 +1016,8 @@
                 "role": ""
             },
             "semakhadis_link": "http://semakhadis.com/tidaklah-seorang-wanita-yang-mengalami-haidh-kecuali-haidhnya-itu-merupakan",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "guid": "",
             "approved_by": 23,
             "approved_at": "",
@@ -1067,8 +1065,8 @@
                 "role": "Admin"
             },
             "guid": "http://semakhadis.com/?p=225",
-            "updated_at": "asdasdasdasd with GMT",
-            "created_at": "123123123 with GMT",
+            "updated_at": "2018-03-24T07:01:43.056Z",
+            "created_at": "2018-03-24T07:01:43.056Z",
             "semakhadis_link": "http://semakhadis.com/tidaklah-seorang-wanita-yang-mengalami-haidh-kecuali-haidhnya-itu-merupakan",
             "approved_by": 23,
             "approved_at": "",
@@ -1099,6 +1097,722 @@
                 "Abdul Razak Muthalib, 40 Hadis Palsu Popular"
             ],
             "tag": []
+        }
+    ],
+    "status-hadith": [
+        {
+            "name": "Hadis Matruk",
+            "description": "Hadis Matruk adalah hadis yang diriwayatkan oleh seorang perawi yang dha’if secara bersendirian, dimana sebab kedha’ifan adalah tuduhan berdusta dalam periwayatan hadis, atau ketara kefasiqannya dalam perkataan, perbuatan atau banyak terlupa atau cuai. (‘Ulum al-Hadith/Fauzi Deraman)",
+            "slug": "hadis-matruk",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mauquf",
+            "description": "Perkataan atau perbuatan yang [di]sandarkan kepada Sahabat adalah Hadis Mauquf",
+            "slug": "hadis-mauquf",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mubham",
+            "description": "Hadis Mubham itu ialah hadis yang perawinya tidak diberi nama",
+            "slug": "hadis-mubham",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mudhtharib",
+            "description": "Hadis yang sanad atau matannya berselilih (memiliki perbezaan) menurut Ahli Hadis disebut Hadis Mudhtharib",
+            "slug": "hadis-mudhtharib",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mudraj",
+            "description": "Hadis Mudraj ialah hadis yang datang (ditambahkan) pada (sanad atau matan) nya sebahagian dari lafaz-lafaz perawi",
+            "slug": "hadis-mudraj",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Munkar",
+            "description": "Hadis Munkar adalah hadis yang diriwayatkan oleh seorang rawi yang tidak diterima ta’dil nya dalam keadaan bersendirian",
+            "slug": "hadis-munkar",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Munqathi",
+            "description": "Setiap hadis yang tidak bersambung sanadnya disebut Hadis Munqathi’",
+            "slug": "hadis-munqathi",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mursal",
+            "description": "Hadis Mursal adalah hadis yang perawinya gugur di peringkat Sahabat",
+            "slug": "hadis-mursal",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Musnad",
+            "description": "Hadis Musnad adalah yang bersambung sanadnya perawinya sampai kepada nabi tanpa terputus",
+            "slug": "hadis-musnad",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mu'allal",
+            "description": "Hadis yang mengandungi cacat yang samar atau tersembunyi dikenal oleh Ahli Hadis dengan Hadis Mu’allal",
+            "slug": "hadis-mu'allal",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mu’an’an",
+            "description": "Hadis Mu’an’an itu seperti perkataan perawi “dari (عَنْ) sa’id, dari (عَنْ) Karom”",
+            "slug": "hadis-mu’an’an",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Mu’dhal",
+            "description": "Hadis Mu’dhal adalah hadis yang gugur pada sanadnya dua rawi",
+            "slug": "hadis-mu’dhal",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Palsu",
+            "description": "Hadis palsu atau hadis maudu’ ialah hadis direka-rekakan dengan sengaja kemudian disandarkan kepada Rasulullah salla Allah ‘alaihi wa sallam. Sesetengah ulama mengatakan walau dengan tidak sengaja merekakan hadis sekalipun.",
+            "slug": "hadis-palsu",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Sahih",
+            "description": "Hadis sahih ialah hadis yang sanadnya (rangkaian pelapor/perawi) bersambung, disampaikan oleh pelapor (rawi) yang adil, sempurna kekuatan ingatan (dhabit), dari awal hingga akhir sanad, tanpa ada sebarang percanggahan (syaz) dan juga kecacatan (‘illah).",
+            "slug": "hadis-sahih",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hadis Syaz",
+            "description": "Perawi (tsiqqah) yang menyelisihi perawi yang (lebih) tsiqqah disebut dengan Hadis Syaz",
+            "slug": "hadis-syaz",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Tadlis",
+            "description": "Tadlis ada dua jenis: 1- [Perawi] menggugurkan syaikhnya dan menukil dari perawi di atas [syaikh] nya dengan kata ” dari (عَنْ) ” dan “bahawa (أَنَّ)”2- [Perawi] tidak menggugurkan (syaikh) nya akan tetapi mensifatinya dengan sifat yang tidak dikenal",
+            "slug": "tadlis",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Tiada Asal",
+            "description": "Ulama Hadis menggunakan beberapa bentuk ibarat dalam [istilah] ini, antaranya: Hadis ini tiada asal baginya (هذا الحديث لا أصل له)Tiada  asal baginya dengan lafaz ini (أو لا أصل له بهذا اللفظ) Tidak diketahui baginya asal (أو لا يعرف له أصل) Tidak wujud baginya asal (أو لم يوجد له أصل) Dan ia bermaksud: Hadis yang disebutkan tiada baginya sanad yang dinukilkan dengannya hadis tersebut. Rujukan: Mu’jam Mustolahat Al-Hadith waLatoif Al-Asanid, Dr. Muhammad Dhiya’ Al-Rahman Al-A’zomi",
+            "slug": "tiada-asal",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        }
+    ],
+    "category": [
+        {
+            "name": "Adab",
+            "description": "adab",
+            "count": 10,
+            "slug": "adab",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Agama",
+            "description": "agama",
+            "count": 10,
+            "slug": "agama",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Bab Ahlu Bayt",
+            "description": "bab Ahlu Bayt",
+            "count": 10,
+            "slug": "bab-ahlu-bayt",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Akhirat",
+            "description": "Akhirat",
+            "count": 10,
+            "slug": "akhirat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Anak",
+            "description": "anak",
+            "count": 10,
+            "slug": "anak",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Azan",
+            "description": "azan",
+            "count": 10,
+            "slug": "azan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Bulan-bulan Islam",
+            "description": "bulan-bulan islam",
+            "count": 10,
+            "slug": "bulan-bulan-islam",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Dunia Dan Keduniaan",
+            "description": "dunia dan keduniaan",
+            "count": 10,
+            "slug": "dunia-dan-keduniaan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Haji",
+            "description": "haji",
+            "count": 10,
+            "slug": "haji",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hak Pembantu",
+            "description": "hak pembantu",
+            "count": 10,
+            "slug": "hak pembantu",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Harta",
+            "description": "harta",
+            "count": 10,
+            "slug": "harta",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hukuman",
+            "description": "hukuman",
+            "count": 10,
+            "slug": "hukuman",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Blis Dan Syaitan",
+            "description": "iblis dan syaitan",
+            "count": 10,
+            "slug": "iblis-dan-syaitan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Ikhlas",
+            "description": "ikhlas",
+            "count": 10,
+            "slug": "ikhlas",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Ilmu",
+            "description": "ilmu",
+            "count": 10,
+            "slug": "ilmu",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Iman",
+            "description": "iman",
+            "count": 10,
+            "slug": "iman",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Jenazah",
+            "description": "jenazah",
+            "count": 10,
+            "slug": "jenazah",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Jihad",
+            "description": "jihad",
+            "count": 10,
+            "slug": "jihad",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kekacauan(fitnah)",
+            "description": "kekacauan(fitnah)",
+            "count": 10,
+            "slug": "kekacauan(fitnah)",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kelebihan",
+            "description": "kelebihan",
+            "count": 10,
+            "slug": "kelebihan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kelebihan Para Sahabat",
+            "description": "kelebihan para sahabat",
+            "count": 10,
+            "slug": "kelebihan-para-sahabat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kiamat",
+            "description": "kiamat",
+            "count": 10,
+            "slug": "kiamat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Lelaki",
+            "description": "lelaki",
+            "count": 10,
+            "slug": "lelaki",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Makan Dan Minuman",
+            "description": "makan dan minuman",
+            "count": 10,
+            "slug": "makan-dan-minuman",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Malaikat",
+            "description": "malaikat",
+            "count": 10,
+            "slug": "malaikat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Mandi",
+            "description": "mandi",
+            "count": 10,
+            "slug": "mandi",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Masjid",
+            "description": "masjid",
+            "count": 10,
+            "slug": "masjid",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Nabi Dan Kenabian",
+            "description": "nabi dan kenabian",
+            "count": 10,
+            "slug": "nabi-dan-kenabian",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Nikah Kahwin",
+            "description": "nikah kahwin",
+            "count": 10,
+            "slug": "nikah-kahwin",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Pekerjaan",
+            "description": "pekerjaan",
+            "count": 10,
+            "slug": "pekerjaan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Pemimpin",
+            "description": "pemimpin",
+            "count": 10,
+            "slug": "pemimpin",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Peperangan",
+            "description": "peperangan",
+            "count": 10,
+            "slug": "peperangan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Perhiasan",
+            "description": "perhiasan",
+            "count": 10,
+            "slug": "perhiasan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Perniagaan",
+            "description": "perniagaan",
+            "count": 10,
+            "slug": "perniagaan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Pusa",
+            "description": "pusa",
+            "count": 10,
+            "slug": "pusa",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Quran",
+            "description": "quran",
+            "count": 10,
+            "slug": "quran",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Roh",
+            "description": "roh",
+            "count": 10,
+            "slug": "roh",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Iman",
+            "description": "iman",
+            "count": 10,
+            "slug": "iman",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Sedekah",
+            "description": "sedekah",
+            "count": 10,
+            "slug": "sedekah",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Selawat",
+            "description": "selawat",
+            "count": 10,
+            "slug": "selawat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Sirah Nabi",
+            "description": "sirah nabi",
+            "count": 10,
+            "slug": "sirah-nabi",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Solat",
+            "description": "solat",
+            "count": 10,
+            "slug": "solat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Taubat",
+            "description": "taubat",
+            "count": 10,
+            "slug": "taubat",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Ubat Dan Perubatan",
+            "description": "ubat dan perubatan",
+            "count": 10,
+            "slug": "ubat-dan-perubatan",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Wudhu",
+            "description": "wudhu",
+            "count": 10,
+            "slug": "wudhu",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Ziarah Kubur",
+            "description": "ziarah kubur",
+            "count": 10,
+            "slug": "ziarah-kubur",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Wanita",
+            "description": "wanita",
+            "count": 10,
+            "slug": "wanita",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Zikir Dan Doa",
+            "description": "zikir dan doa",
+            "count": 10,
+            "slug": "zikir-dan-doa",
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        }
+    ],
+    "rujukan": [
+        {
+            "name": "100 Hadis dari Hadis-hadis Lemah dan Palsu yang Tersebar diantara Para Khatib dan Para Wu'az",
+            "description": "100 Hadis dari Hadis-hadis Lemah dan Palsu yang Tersebar diantara Para Khatib dan Para Wu'az",
+            "slug": "100-hadis-dari-hadis-hadis-lemah-dan-palsu-yang-tersebar-diantara-para-khatib-dan-para-wuaz",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/100-hadis-dari-hadis-hadis-lemah-dan-palsu-yang-tersebar-diantara-para-khatib-dan-para-wuaz",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "40 Kisah Palsu Tetapi Masyhur",
+            "description": "40 Kisah Palsu Tetapi Masyhur",
+            "slug": "40-kisah-palsu-tetapi-masyhur",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/40-kisah-palsu-tetapi-masyhur",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "60 Kisah-kisah Lemah",
+            "description": "60 Kisah-Kisah Lemah",
+            "slug": "kisah-kisah-lemah-yang-sewajarnya-dilihat-semula-oleh-para-penceramah",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/kisah-kisah-lemah-yang-sewajarnya-dilihat-semula-oleh-para-penceramah",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Al-Irsyad fi al-Hadith wa Ulumihi",
+            "description": "Al-Irsyad fi al-Hadith wa Ulumihi",
+            "slug": "al-irsyad-fi-al-hadith-wa-ulumihi",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/al-irsyad-fi-al-hadith-wa-ulumihi",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "al-Manār al-Munīf fi al-Ṣahīh wa al-Ḍa’īf",
+            "description": "al-Manār al-Munīf fi al-Ṣahīh wa al-Ḍa’īf",
+            "slug": "al-Manar-al-Munif-fi-al-Ṣahih-wa-al-Ḍaif",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/al-manar-al-munif-fi-al-%E1%B9%A3ahih-wa-al-%E1%B8%8Daif",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Al-Mawsu'ah Al-Hadithiah",
+            "description": "Al-Mawsu'ah Al-Hadithiah",
+            "slug": "al-mawsuah-al-hadithiah",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/al-mawsuah-al-hadithiah",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Alfāẓ Yaqūluhā al-Imām Qabl Takbīrah al-Iḥrām Listiwāʾ al-Ṣufūf Minhā al-Ṣahīhah wa Minhā al-Ḍaʿīfah",
+            "description": "Alfāẓ Yaqūluhā al-Imām Qabl Takbīrah al-Iḥrām Listiwāʾ al-Ṣufūf Minhā al-Ṣahīhah wa Minhā al-Ḍaʿīfah",
+            "slug": "alfaẓ-yaquluha-al-imam-qabl-takbirah-al-iḥram-listiwa-al-ṣufuf-minha-al-ṣahihah-wa-minha-al-ḍaifah",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/alfa%E1%BA%93-yaquluha-al-imam-qabl-takbirah-al-i%E1%B8%A5ram-listiwa%CA%BE-al-%E1%B9%A2ufuf-minha-al-%E1%B9%A2ahihah-wa-minha-al-%E1%B8%8Ca%CA%BFifah",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Dorar.net",
+            "description": "Dorar.net",
+            "slug": "dorar-net",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/dorar-net",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Hdith.com",
+            "description": "Hdith.com",
+            "slug": "hdith-com",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/hdith-com",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "IslamWeb.Net",
+            "description": "IslamWeb.Net",
+            "slug": "islamWeb-net",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/islamweb-net",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kajian Dr. Ustaz Rozaimi Ramle dan Tim Penyelidiknya",
+            "description": "Kajian Dr. Ustaz Rozaimi Ramle dan Tim Penyelidiknya",
+            "slug": "dr-rozaimi",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/dr-rozaimi",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kajian Ustaz Kamilin Jamilin",
+            "description": "Kajian Ustaz Kamilin Jamilin",
+            "slug": "kajian-ustaz-kamilin-jamilin",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/kajian-ustaz-kamilin-jamilin",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Kajian Ustaz Zulfadhli",
+            "description": "Kajian Ustaz Zulfadhli",
+            "slug": "kajian-ustaz-zulfadhli",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/kajian-ustaz-zulfadhli",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Laman Web Bicara Rasul",
+            "description": "Laman Web Bicara Rasul",
+            "slug": "laman-web-bicara-rasul",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/laman-web-bicara-rasul",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Makalah Ahadith La Asla Laha",
+            "description": "Makalah Ahadith La Asla Laha",
+            "slug": "makalah-ahadith-la-asla-laha",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/makalah-ahadith-la-asla-laha",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Pseudo Hadis",
+            "description": "Pseudo Hadis",
+            "slug": "pseudo-hadis",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/pseudo-hadis",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Silsilah al-Ahadis al-Dho’ifah wa al-Maudhu’ah",
+            "description": "Silsilah al-Ahadis al-Dho’ifah wa al-Maudhu’ah",
+            "slug": "silsilah-al-ahadis-al-dhoifah-wa-al-maudhuah",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/silsilah",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Soal Jawab Status Hadith Semakhadis.com",
+            "description": "Soal Jawab Status Hadith Semakhadis.com",
+            "slug": "soal-jawab-status-hadith-semakhadis-com",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/soal-jawab-status-hadith-semakhadis-com",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Takhrij Al-Durr Al-Thamin",
+            "description": "Takhrij Al-Durr Al-Thamin",
+            "slug": "takhrij-al-durr-al-thamin",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/takhrij-al-durr-al-thamin",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Takhrij Hadith Di Nusantara: Keperluan Masa Kini",
+            "description": "Takhrij Hadith Di Nusantara: Keperluan Masa Kini",
+            "slug": "takhrij-hadith-di-nusantara-keperluan-masa-kini",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/takhrij-hadith-di-nusantara-keperluan-masa-kini",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Tanzīḥ al-Sharī‘ah al-Marfū‘ah ‘an al-Akhbār al-Shanī‘ah al-Mawdū‘ah ",
+            "description": "Tanzīḥ al-Sharī‘ah al-Marfū‘ah ‘an al-Akhbār al-Shanī‘ah al-Mawdū‘ah ",
+            "slug": "tanziḥ-al-shari-ah-al-marfu-ah--an-al-akhbar-al-shani-ah-al-mawdu-ah",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/tanzi%E1%B8%A5-al-shariah-al-marfuah-an-al-akhbar-al-shaniah-al-mawduah",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Tesis Master USM",
+            "description": "Tesis Master USM",
+            "slug": "tesis-master-usm",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/tesis-master-usm",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
+        },
+        {
+            "name": "Tim Semak Hadis",
+            "description": "Tim Semak Hadis",
+            "slug": "tim-semak-hadis",
+            "semakhadis_link": "http://semakhadis.com/category/sumber-kajian/tim-semak-hadis",
+            "count": 10,
+            "created_at": "2018-03-24T07:01:43.056Z",
+            "updated_at": "2018-03-24T07:01:43.056Z"
         }
     ]
 }
