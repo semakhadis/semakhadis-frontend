@@ -2,14 +2,20 @@ language: node_js
 node_js:
   - '7'
 
-branches: 
-  only: 
+branches:
+  only:
    - master
 
 before_script:
- - yarn install
- - npm install
- - ng build
+ - npm install -g @angular/cli@~1.7.3
+ - yarn install --prod
 
 script:
- - ng build --prod
+ - npm run build
+
+notifications:
+ email:
+     recipients:
+       - azrizhaziq@gmail.com
+     on_success: never # default: change
+     on_failure: always # default: always
