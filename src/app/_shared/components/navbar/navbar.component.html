@@ -1,28 +1,22 @@
-<nav class="navbar navbar-sh navbar-light">
+<nav class="navbar navbar-sh navbar-light" role="navigation">
     <div class="container-fluid">
         <input type="checkbox" id="navbar-toggle-cbox">
         <div class="navbar-header">
             <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
                 (click)="toggleHamburger()" aria-controls="navbar">
-                <div class="hamburger hamburger--elastic-r" [ngClass]="{ 'is-active': hamburgerIsActive }" aria-label="Menu" aria-controls="navbar">
+                <span class="hamburger hamburger--elastic-r" [ngClass]="{ 'is-active': hamburgerIsActive }" aria-label="Menu" aria-controls="navbar">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
-                </div>
+                </span>
             </label>
-            <a routerLinkActive="active" class="navbar-brand" routerLink="/" [routerLinkActiveOptions]="{ exact: true }">Brand</a>
+            <a routerLinkActive="active" class="navbar-brand" routerLink="/" [routerLinkActiveOptions]="{ exact: true }">Semak Hadis</a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
-                <li class="active">
-                    <a href="#">Link
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Link</a>
-                </li>
+                <li><a routerLinkActive="active" routerLink="/hadith">Hadith</a></li>
+                <li><a routerLinkActive="active" routerLink="/donation">Donation</a></li>
             </ul>
             <form class="navbar-form navbar-left">
                 <div class="form-group">
@@ -31,15 +25,10 @@
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a routerLinkActive="active" routerLink="/about">About</a>
-                </li>
-                <li>
-                    <a routerLinkActive="active" routerLink="/contact-developer">Contact</a>
-                </li>
-                <li>
-                    <a routerLinkActive="active" routerLink="/faq">Faq</a>
-                </li>
+                <li><a routerLinkActive="active" routerLink="/about">About</a></li>
+                <li><a routerLinkActive="active" routerLink="/contact-developer">Contact</a></li>
+                <li><a routerLinkActive="active" routerLink="/reference">Reference</a></li>
+                <li><a routerLinkActive="active" routerLink="/faq">Faq</a></li>
             </ul>
         </div>
     </div>
