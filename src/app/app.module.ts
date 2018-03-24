@@ -11,11 +11,13 @@ import { environment } from 'Environments/environment'
 
 import { AppComponent } from 'App/app.component'
 import { ApiService } from 'Services/api.service'
+import { AppService } from 'Services/app.service'
 import { AuthService } from 'Services/auth.service'
 import { HadithService } from 'Services/hadith.service'
 import { SearchService } from 'Services/search.service'
 import { DonationService } from 'Services/donation.service'
 import { AuthUserService } from 'Services/auth-user.service'
+import { ReferenceService } from 'Services/reference.service'
 
 @NgModule({
     declarations: [ AppComponent ],
@@ -29,12 +31,14 @@ import { AuthUserService } from 'Services/auth-user.service'
         }),
     ],
     providers: [
+        AppService,
         ApiService,
         AuthService,
         HadithService,
         SearchService,
         AuthUserService,
         DonationService,
+        ReferenceService,
         { provide: LocationStrategy, useClass: PathLocationStrategy },
     ],
     bootstrap: [ AppComponent ],

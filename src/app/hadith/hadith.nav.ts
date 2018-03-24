@@ -12,7 +12,7 @@ export const HADITH_NAV: Routes = [
                 path: '',
                 component: MainHadithComponent
             }, {
-                path: ':uuid',
+                path: ':slug',
                 component: HadithItemComponent
             }
         ]
