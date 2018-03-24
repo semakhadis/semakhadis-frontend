@@ -2,14 +2,13 @@ language: node_js
 node_js:
   - '7'
 
-branches: 
-  only: 
+branches:
+  only:
    - master
 
 before_script:
- - yarn install
- - npm install
+ - yarn install --prod
  - ng build
 
 script:
- - ng build --prod
+ - npm run build
