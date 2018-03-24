@@ -1,11 +1,5 @@
-export const environment: IEnvironment = {
+export const environment = {
     production: false,
     api: 'http://localhost:3000',
     hmr: false
-}
-
-export interface IEnvironment {
-    production: boolean
-    api: string
-    hmr: boolean
 }
