@@ -1,10 +1,6 @@
 import { Component } from '@angular/core'
 
 @Component({
-    template: `
-        main about component works!
-    `,
+    templateUrl: 'main-about.component.html'
 })
-export class MainAboutComponent {
-
-}
+export class MainAboutComponent {}
