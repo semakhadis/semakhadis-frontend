@@ -1,12 +1,9 @@
-import 'rxjs/add/operator/finally'
-import { Component, OnDestroy, OnInit } from '@angular/core'
-import { ReferenceService } from 'Services/reference.service'
-import { ComponentUtilitiesService } from 'Services/component-utilities.service'
+import { ActivatedRoute } from '@angular/router'
+import { Component, OnInit } from '@angular/core'
 
 @Component({
     template: `
         <ng-container *ngFor="let ref of state.references">
-
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ ref.name }} - {{ ref.count }}</h5>
@@ -19,36 +16,15 @@ import { ComponentUtilitiesService } from 'Services/component-utilities.service'
         </ng-container>
     `,
 })
-export class MainReferenceComponent extends ComponentUtilitiesService implements OnInit, OnDestroy {
+export class MainReferenceComponent implements OnInit {
 
-    state = {
-        references: []
-    }
+    state = { references: [] }
 
-    meta = {
-        isLoading: false,
-        isError: false
-    }
-
-    constructor(private referenceService: ReferenceService) {
-        super()
+    constructor(private route: ActivatedRoute) {
     }
 
     ngOnInit(): void {
-        this.meta.isLoading = true
-
-        const fetchReferences$ =
-            this.referenceService.fetchReferences()
-                .finally(() => this.meta.isLoading = false)
-                .subscribe(
-                    references => this.state.references = references,
-                    console.error
-                )
-
-        this.addSubscription(fetchReferences$)
+        this.state.references = this.route.snapshot.data[ 'references' ]
     }
 
-    ngOnDestroy(): void {
-        this.unsubscribes()
-    }
 }
