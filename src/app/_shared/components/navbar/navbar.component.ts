@@ -10,12 +10,6 @@ export class NavbarComponent {
     hamburgerIsActive: boolean = false
     currentRoute: string
 
-    /* constructor(private _router: Router) {
-        _router.events.subscribe((url: any) => {
-            this.currentRoute = _router.url
-        })
-    } */
-
     constructor(private router: Router) {
         this.router.events.subscribe(event => {
             if (event instanceof NavigationEnd) {

@@ -3,12 +3,14 @@
     "version": "0.0.0",
     "license": "MIT",
     "scripts": {
-        "fix": "ng lint --fix",
-        "lint": "ng lint --type-check",
-        "start": "ng serve -vc -cc -o --hmr -e=hmr",
-        "build": "ng build --prod",
+        "e2e": "ng e2e",
         "test": "ng test",
-        "e2e": "ng e2e"
+        "fix": "ng lint --fix",
+        "start": "run-p dev mock",
+        "lint": "ng lint --type-check",
+        "dev": "ng serve -vc -cc -o --hmr -e=hmr",
+        "mock": "json-server --watch src/mock/mock.json",
+        "build": "ng build --prod"
     },
     "private": true,
     "dependencies": {
@@ -39,11 +41,13 @@
         "codelyzer": "^4.0.1",
         "jasmine-core": "~2.8.0",
         "jasmine-spec-reporter": "~4.2.1",
+        "json-server": "^0.12.1",
         "karma": "~2.0.0",
         "karma-chrome-launcher": "~2.2.0",
         "karma-coverage-istanbul-reporter": "^1.2.1",
         "karma-jasmine": "~1.1.0",
         "karma-jasmine-html-reporter": "^0.2.2",
+        "npm-run-all": "^4.1.2",
         "prettier": "1.11.1",
         "protractor": "~5.1.2",
         "ts-node": "~4.1.0",

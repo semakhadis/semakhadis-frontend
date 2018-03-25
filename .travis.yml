@@ -1,15 +1,21 @@
 language: node_js
 node_js:
-  - '7'
+  - '8'
 
-branches: 
-  only: 
+branches:
+  only:
    - master
 
 before_script:
- - yarn install
- - npm install
- - ng build
+ - yarn install --production
+ - yarn -D add typescript@~2.5.3 @angular/compiler-cli@^5.2.0
 
 script:
- - ng build --prod
+ - npm run build
+
+notifications:
+ email:
+     recipients:
+       - azrizhaziq@gmail.com
+     on_success: never # default: change
+     on_failure: always # default: always

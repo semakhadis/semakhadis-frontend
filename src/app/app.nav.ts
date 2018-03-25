@@ -22,6 +22,9 @@ export const APP_NAV: Routes = [
                 path: 'faq',
                 loadChildren: './faq/faq.module#FaqModule',
             }, {
+                path: 'reference',
+                loadChildren: './reference/reference.module#ReferenceModule',
+            }, {
                 path: 'hadith',
                 loadChildren: './hadith/hadith.module#HadithModule',
             },
