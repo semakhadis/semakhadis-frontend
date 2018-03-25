@@ -14,8 +14,6 @@ export class ReferenceService extends ApiService {
         ReferenceService.base_url = `${this.base_url}/references`
     }
 
-    fetchReferences = (): Observable<any> => {
-        return this.http.get(ReferenceService.base_url)
-    }
+    fetchReferences = (): Observable<any> => this.http.get(ReferenceService.base_url)
 
 }
