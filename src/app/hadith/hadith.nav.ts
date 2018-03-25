@@ -1,8 +1,9 @@
 import { Routes } from '@angular/router'
+import { FetchHadithsResolver } from 'Hadith/r/fetch-hadiths.resolver'
+
 import { BaseHadithComponent } from 'Hadith/base-hadith.component'
 import { HadithItemComponent } from 'Hadith/c/hadith-item/hadith-item.component'
 import { MainHadithComponent } from 'Hadith/c/main-hadith/main-hadith.component'
-import { FetchHadithResolver } from 'hadith/resolvers/fetch-hadiths.resolver'
 
 export const HADITH_NAV: Routes = [
     {
@@ -12,7 +13,7 @@ export const HADITH_NAV: Routes = [
             {
                 path: '',
                 component: MainHadithComponent,
-                resolve: { hadiths: FetchHadithResolver }
+                resolve: { hadiths: FetchHadithsResolver }
             }, {
                 path: ':slug',
                 component: HadithItemComponent
