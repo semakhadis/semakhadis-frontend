@@ -2,9 +2,7 @@ import { Component } from '@angular/core'
 
 @Component({
     template: `
-        main FAQ works!
-    `,
+        <v-banner-title [title]="'Frequently Asked Questions'"></v-banner-title>        
+    `
 })
-export class MainFaqComponent {
-
-}
+export class MainFaqComponent {}

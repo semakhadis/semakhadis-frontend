@@ -7,7 +7,13 @@
     color: $white;
     text-align: center;
     background: $base-gradient-color;
-    background-image: url('../../../../assets/images/hero-bg.png');
+    background-image: url('../../../../assets/images/hero-bg@2x.png');
+    background-image: -webkit-image-set(
+        url('../../../../assets/images/hero-bg@1x.png') 1x,
+        url('../../../../assets/images/hero-bg@2x.png') 2x
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
 
     @include media-breakpoint-up(md) {
         min-height: 600px;

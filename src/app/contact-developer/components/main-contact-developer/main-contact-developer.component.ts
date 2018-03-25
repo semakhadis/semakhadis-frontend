@@ -2,9 +2,7 @@ import { Component } from '@angular/core'
 
 @Component({
     template: `
-        main contact-developer works!
-    `,
+        <v-banner-title [title]="'Contact Us'"></v-banner-title>        
+    `
 })
-export class MainContactDeveloperComponent {
-
-}
+export class MainContactDeveloperComponent {}

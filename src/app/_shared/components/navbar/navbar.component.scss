@@ -22,8 +22,6 @@
     overflow-x: visible;
     padding-right: $navbar-padding-horizontal;
     padding-left: $navbar-padding-horizontal;
-    border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     @include clearfix;
     -webkit-overflow-scrolling: touch;
 
@@ -33,7 +31,6 @@
 
     @media (min-width: $grid-float-breakpoint) {
         width: auto;
-        border-top: 0;
         box-shadow: none;
 
         &.collapse {
@@ -162,8 +159,6 @@
 
 .sh-form {
     padding: 0 $navbar-padding-horizontal;
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
     @include navbar-vertical-align(50px);
 
     ::ng-deep .form-group {
@@ -187,7 +182,6 @@
 
 .navbar-nav > li > .dropdown-menu {
     margin-top: 0;
-    @include border-top-radius(0);
 }
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
