@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 import { REFERENCE_NAV } from 'App/reference/reference.nav'
-import { BaseReferenceComponent } from './base-reference.component'
-import { FetchReferencesResolver } from 'App/reference/resolver/fetch-references.resolver'
-import { MainReferenceComponent } from './components/main-reference/main-reference.component'
-import { ReferenceItemComponent } from './components/reference-item/reference-item.component'
+import { FetchReferencesResolver } from 'Reference/r/fetch-references.resolver'
+
+import { BaseReferenceComponent } from 'Reference/base-reference.component'
+import { MainReferenceComponent } from 'Reference/c/main-reference/main-reference.component'
+import { ReferenceItemComponent } from 'Reference/c/reference-item/reference-item.component'
 
 
 @NgModule({
