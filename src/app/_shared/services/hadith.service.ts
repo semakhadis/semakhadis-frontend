@@ -1,13 +1,19 @@
 import { Injectable } from '@angular/core'
+import { Observable } from 'rxjs/Observable'
 import { HttpClient } from '@angular/common/http'
+import { ApiService } from 'Services/api.service'
 
 @Injectable()
-export class HadithService {
+export class HadithService extends ApiService {
 
     private static base_url: string = ''
 
     constructor(private http: HttpClient) {
-        HadithService.base_url = ''
+        super()
+
+        HadithService.base_url = `${this.base_url}/hadith`
     }
+
+    fetchHadith = (): Observable<any> => this.http.get(HadithService.base_url)
 
 }
