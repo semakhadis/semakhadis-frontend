@@ -5,16 +5,10 @@ import { CommonModule } from '@angular/common'
 import { BaseAboutComponent } from 'About/base-about.component'
 import { MainAboutComponent } from 'About/c/main-about/main-about.component'
 
+import { SharedModule } from 'App/_shared/_shared.module'
+
 @NgModule({
-    declarations: [
-        MainAboutComponent,
-        BaseAboutComponent
-    ],
-    imports: [
-        RouterModule,
-        CommonModule,
-        RouterModule.forChild(ABOUT_NAV)
-    ]
+    declarations: [MainAboutComponent, BaseAboutComponent],
+    imports: [RouterModule, CommonModule, SharedModule, RouterModule.forChild(ABOUT_NAV)]
 })
-export class AboutModule {
-}
+export class AboutModule {}

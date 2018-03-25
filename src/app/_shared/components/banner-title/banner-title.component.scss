@@ -1,0 +1,11 @@
+@import '~scss/base/variables';
+
+.sh-banner-title {
+    min-height: 100px;
+    background: $base-gradient-color;
+
+    .section-title {
+        font-size: 40px;
+        color: $white;
+    }
+}
