@@ -208,7 +208,7 @@
     position: relative;
     z-index: 1;
     height: $navbar-height;
-    transition: all 0.3s ease-in;
+    transition: all 200ms ease-in;
     @include clearfix;
 
     .navbar-nav {
@@ -297,7 +297,6 @@
 
 .navbar-light {
     background-color: $white;
-    transition: all 0.3s ease-in;
 
     .navbar-brand {
         color: $base-color-1;
@@ -306,7 +305,6 @@
 
 .navbar-base {
     background: $base-gradient-color;
-    transition: all 0.3s ease-in;
 
     .navbar-brand {
         color: $white;
