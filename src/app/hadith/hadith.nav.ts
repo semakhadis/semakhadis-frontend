@@ -7,13 +7,14 @@ import { FetchHadithResolver } from 'Hadith/resolver/fetch-hadith.resolver'
 export const HADITH_NAV: Routes = [
     {
         path: '',
-        component : BaseHadithComponent,
+        component: BaseHadithComponent,
         children: [
             {
                 path: '',
                 component: MainHadithComponent,
                 resolve: { hadiths: FetchHadithResolver }
-            }, {
+            },
+            {
                 path: ':slug',
                 component: HadithItemComponent
             }
