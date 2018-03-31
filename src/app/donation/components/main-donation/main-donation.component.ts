@@ -2,9 +2,7 @@ import { Component } from '@angular/core'
 
 @Component({
     template: `
-        main Donation works!
-    `,
+        <v-banner-title [title]="'Donation'"></v-banner-title>        
+    `
 })
-export class MainDonationComponent {
-
-}
+export class MainDonationComponent {}
