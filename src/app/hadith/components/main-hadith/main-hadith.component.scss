@@ -1,0 +1,52 @@
+@import '~scss/base/variables';
+
+.sh-hadith {
+    .h-item + .h-item {
+        border-top: 1px solid #f3f3f3;
+    }
+
+    a {
+        &:hover,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    .h-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .h-status {
+        text-transform: uppercase;
+        color: $base-color-1;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.7px;
+        margin-bottom: 2px;
+    }
+
+    .h-title {
+        margin-top: 0;
+        font-size: 15px;
+        font-weight: 500;
+        color: $black;
+    }
+
+    .h-malay {
+        position: relative;
+        line-height: 1.5em;
+        height: 3em;
+        overflow: hidden;
+    }
+
+    .h-malay,
+    .h-arabic {
+        color: $black;
+        opacity: 0.7;
+    }
+}
