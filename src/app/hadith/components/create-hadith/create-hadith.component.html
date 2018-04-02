@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <form (submit)="submit()" novalidate>
+
+                <div class="form-group">
+                    <label for="title" class="cols-sm-2 control-label">Title</label>
+                    <input type="text" class="form-control"
+                           name="name" id="title"
+                           [(ngModel)]="state.title"
+                           placeholder="Enter your hadith title" />
+                </div>
+
+                <div class="form-group">
+                    <label for="perawi" class="cols-sm-2 control-label">Perawi</label>
+                    <input type="text" class="form-control"
+                           name="perawi" id="perawi"
+                           [(ngModel)]="state.perawi"
+                           placeholder="Enter your perawi"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="text_arab" class="cols-sm-2 control-label">Text Arab</label>
+                    <app-ngx-editor
+                        id="text_arab"
+                        name="text_arab"
+                        [spellcheck]="true"
+                        [(ngModel)]="state.textArab"
+                        [placeholder]="'Enter text here...'"
+                    ></app-ngx-editor>
+                </div>
+
+                <div class="form-group">
+                    <label for="text_melayu" class="cols-sm-2 control-label">Text Melayu</label>
+                    <app-ngx-editor
+                        id="text_melayu"
+                        name="text_melayu"
+                        [spellcheck]="true"
+                        [(ngModel)]="state.textMelayu"
+                        [placeholder]="'Enter text here...'"
+                    ></app-ngx-editor>
+                </div>
+
+                <div class="form-group">
+                    <label for="komentar_ulama" class="cols-sm-2 control-label">Komentar Ulama</label>
+                    <app-ngx-editor
+                        id="komentar_ulama"
+                        name="komentar_ulama"
+                        [spellcheck]="true"
+                        [(ngModel)]="state.komentar_ulama"
+                        [placeholder]="'Enter text here...'"
+                    ></app-ngx-editor>
+                </div>
+
+                <button type="submit">Save hadith</button>
+
+            </form>
+
+        </div>
+    </div>
+</div>

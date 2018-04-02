@@ -26,7 +26,7 @@ const sharedComponent = [
         FormsModule,
         RouterModule,
         CommonModule,
-        NgProgressModule
+        NgProgressModule,
     ]
 })
 export class SharedModule {
