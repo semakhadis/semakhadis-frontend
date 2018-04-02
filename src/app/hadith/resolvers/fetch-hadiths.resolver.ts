@@ -6,7 +6,7 @@ import { NgProgress } from 'ngx-progressbar'
 import { HadithService } from 'Services/hadith.service'
 
 @Injectable()
-export class FetchHadithResolver implements Resolve<any> {
+export class FetchHadithsResolver implements Resolve<any> {
 
     constructor(private ngProgress: NgProgress,
                 private hadithService: HadithService) {

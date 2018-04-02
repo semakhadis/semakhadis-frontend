@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core'
+import { ToastyModule } from 'ng2-toasty'
 import { RouterModule } from '@angular/router'
 import { HttpClientModule } from '@angular/common/http'
 import { SharedModule } from 'App/_shared/_shared.module'
@@ -10,9 +11,11 @@ import { APP_NAV } from 'App/app.nav'
 import { environment } from 'Environments/environment'
 
 import { AppComponent } from 'App/app.component'
+import { BabService } from 'Services/bab.service'
 import { ApiService } from 'Services/api.service'
 import { AppService } from 'Services/app.service'
 import { AuthService } from 'Services/auth.service'
+import { ToastService } from 'Services/toast.service'
 import { HadithService } from 'Services/hadith.service'
 import { SearchService } from 'Services/search.service'
 import { DonationService } from 'Services/donation.service'
@@ -25,6 +28,7 @@ import { ReferenceService } from 'Services/reference.service'
         SharedModule,
         BrowserModule,
         HttpClientModule,
+        ToastyModule.forRoot(),
         RouterModule.forRoot(APP_NAV),
         ServiceWorkerModule.register('/ngsw-worker.js', {
             enabled: environment.production,
@@ -33,7 +37,9 @@ import { ReferenceService } from 'Services/reference.service'
     providers: [
         AppService,
         ApiService,
+        BabService,
         AuthService,
+        ToastService,
         HadithService,
         SearchService,
         AuthUserService,

@@ -16,4 +16,6 @@ export class HadithService extends ApiService {
 
     fetchHadith = (): Observable<any> => this.http.get(HadithService.base_url)
 
+    createHadith = (payload: any): Observable<any> => this.http.post(HadithService.base_url, payload)
+
 }
