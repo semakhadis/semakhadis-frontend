@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core'
 import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 import { HADITH_NAV } from 'Hadith/hadith.nav'
+import { SharedModule } from 'App/_shared/_shared.module'
 import { FetchHadithsResolver } from 'Hadith/r/fetch-hadiths.resolver'
 
 import { BaseHadithComponent } from 'Hadith/base-hadith.component'
@@ -20,6 +21,7 @@ import { FooterReportComponent } from 'Hadith/c/footer-report/footer-report.comp
         FooterReportComponent,
     ],
     imports: [
+        SharedModule,
         RouterModule,
         CommonModule,
         RouterModule.forChild(HADITH_NAV)

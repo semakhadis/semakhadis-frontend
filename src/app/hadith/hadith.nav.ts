@@ -8,13 +8,14 @@ import { MainHadithComponent } from 'Hadith/c/main-hadith/main-hadith.component'
 export const HADITH_NAV: Routes = [
     {
         path: '',
-        component : BaseHadithComponent,
+        component: BaseHadithComponent,
         children: [
             {
                 path: '',
                 component: MainHadithComponent,
                 resolve: { hadiths: FetchHadithsResolver }
-            }, {
+            },
+            {
                 path: ':slug',
                 component: HadithItemComponent
             }
