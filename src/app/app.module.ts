@@ -10,6 +10,7 @@ import { APP_NAV } from 'App/app.nav'
 import { environment } from 'Environments/environment'
 
 import { AppComponent } from 'App/app.component'
+import { BabService } from 'Services/bab.service'
 import { ApiService } from 'Services/api.service'
 import { AppService } from 'Services/app.service'
 import { AuthService } from 'Services/auth.service'
@@ -33,6 +34,7 @@ import { ReferenceService } from 'Services/reference.service'
     providers: [
         AppService,
         ApiService,
+        BabService,
         AuthService,
         HadithService,
         SearchService,
