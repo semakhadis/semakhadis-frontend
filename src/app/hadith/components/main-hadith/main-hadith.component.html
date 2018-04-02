@@ -1,0 +1,41 @@
+<!-- <v-banner-title [title]="'Hadith'"></v-banner-title> -->
+<section class="sh-hadith">
+    <div class="container">
+        <div class="row sh-top">
+            <div class="col-xs-6 col-sm-6 col-md-8 col-lg-9">
+                <p class="pull-left">250 hadis dijumpai untuk “solat”</p>
+                <div class="">
+                    <div class="form-group pull-right">
+                        <label class="control-label">Sort by</label>
+                        <select class="form-control">
+                            <option>Alphabet A - Z</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="panel">
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li class="h-item" *ngFor="let hadith of state.hadiths">
+                                <a href="">
+                                    <p class="h-status">{{ hadith.status_hadith }}</p>
+                                    <p class="h-title">{{ hadith.title }}</p>
+                                    <p class="h-arabic" *ngIf="hadith.text_arab.length > 0">{{ hadith.text_arab }}</p>
+                                    <p class="h-malay" *ngIf="hadith.text_melayu.length > 0">{{ hadith.text_melayu }}</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
