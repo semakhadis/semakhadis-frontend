@@ -1,9 +1,53 @@
 @import '~scss/base/variables';
 
-.item {
-    width: 100px;
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-}
+.sh-chapter-section {
+    a.item {
+        position: relative;
+        background-color: $secondary-color;
+        border-radius: 4px;
+        height: 65px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        color: $black;
+        transition: all 200ms;
 
+        .name {
+            font-weight: 500;
+            opacity: 0.8;
+        }
+
+        .counter {
+            position: absolute;
+            right: 0;
+            margin-right: 12px;
+            font-weight: 600;
+            font-size: 23px;
+            opacity: 0.2;
+        }
+
+        [class*='fa'] {
+            position: absolute;
+            right: 0;
+            opacity: 0;
+            margin-right: -20px;
+            transition: all 200ms;
+            color: $base-color-1;
+        }
+
+        &:hover {
+            [class*='fa'] {
+                opacity: 1;
+                margin-right: 0;
+                right: 10px;
+            }
+
+            .counter {
+                display: none;
+            }
+        }
+    }
+}

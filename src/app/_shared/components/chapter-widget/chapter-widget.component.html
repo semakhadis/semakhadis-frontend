@@ -1,0 +1,22 @@
+<section class="sh-chapter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="section-heading clearfix">
+                    <h4 class="section-title pull-left">Bab</h4>
+                </div>
+                <div class="row">
+                    <ng-container *ngFor="let bab of state.babs">
+                        <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                            <a href="" class="item">
+                                <span class="name">{{ bab.name }}</span>
+                                <span class="counter">{{ bab.count }}</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

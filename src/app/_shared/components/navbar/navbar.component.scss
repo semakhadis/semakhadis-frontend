@@ -216,6 +216,7 @@
 
         > li > a {
             color: $navbar-default-link-color;
+            font-weight: 500;
 
             &:hover,
             &:focus {
@@ -301,6 +302,12 @@
     .navbar-brand {
         color: $base-color-1;
     }
+
+    .navbar-nav {
+        > li > a {
+            color: $black;
+        }
+    }
 }
 
 .navbar-base {
@@ -316,15 +323,14 @@
 
             &:hover,
             &:focus {
-                color: $navbar-default-link-hover-color;
-                background-color: $navbar-default-link-hover-bg;
+                color: $secondary-color;
             }
         }
         > .active > a {
             &,
             &:hover,
             &:focus {
-                color: $navbar-default-link-active-color;
+                color: $secondary-color;
             }
         }
         > .disabled > a {
