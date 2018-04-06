@@ -27,7 +27,7 @@ body {
     font-family: $font-family-base;
     font-size: $font-size-base;
     line-height: $line-height-base;
-    color: $text-color;
+    color: $black;
     background-color: $body-bg;
     overflow-x: hidden;
 }
@@ -45,13 +45,13 @@ textarea {
 // Links
 
 a {
-    color: $link-color;
+    color: $base-color-1;
     text-decoration: none;
+    transition: all 200ms;
 
     &:hover,
     &:focus {
-        color: $link-hover-color;
-        text-decoration: $link-hover-decoration;
+        color: darken($base-color-1, 5%);
     }
 
     &:focus {

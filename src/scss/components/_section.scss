@@ -9,4 +9,29 @@ section {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
+    .section-heading {
+        .section-title {
+            font-size: 25px;
+        }
+
+        .section-link {
+            position: relative;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            [class*='fa'] {
+                position: relative;
+                left: 5px;
+                transition: left 200ms;
+            }
+
+            &:hover {
+                [class*='fa'] {
+                    left: 10px;
+                }
+            }
+        }
+    }
 }

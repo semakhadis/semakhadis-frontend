@@ -8,6 +8,11 @@ import { MainDonationComponent } from 'Donation/c/main-donation/main-donation.co
 
 @NgModule({
     declarations: [BaseDonationComponent, MainDonationComponent],
-    imports: [RouterModule, CommonModule, SharedModule, RouterModule.forChild(DONATION_NAV)]
+    imports: [
+        RouterModule,
+        CommonModule,
+        SharedModule,
+        RouterModule.forChild(DONATION_NAV)
+    ]
 })
 export class DonationModule {}

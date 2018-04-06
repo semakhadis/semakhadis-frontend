@@ -1,7 +1,9 @@
+import 'hammerjs'
 import { NgModule } from '@angular/core'
 import { FormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
+import { NgxCarouselModule } from 'ngx-carousel'
 import { NgProgressModule } from 'ngx-progressbar'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { DownloadAppComponent } from 'Components/download-app/download-app.component'
@@ -9,6 +11,7 @@ import { ProgressBarComponent } from 'Components/progress-bar/progress-bar.compo
 import { BannerTitleComponent } from 'Components/banner-title/banner-title.component'
 import { HadithSearchComponent } from 'Components/hadith-search/hadith-search.component'
 import { ChapterWidgetComponent } from 'Components/chapter-widget/chapter-widget.component'
+import { KitabWidgetComponent } from 'Components/kitab-widget/kitab-widget.component'
 
 const sharedComponent = [
     NavbarComponent,
@@ -17,17 +20,18 @@ const sharedComponent = [
     BannerTitleComponent,
     HadithSearchComponent,
     ChapterWidgetComponent,
+    KitabWidgetComponent
 ]
 
 @NgModule({
-    exports: [ ...sharedComponent ],
-    declarations: [ ...sharedComponent ],
+    exports: [...sharedComponent],
+    declarations: [...sharedComponent],
     imports: [
         FormsModule,
         RouterModule,
         CommonModule,
-        NgProgressModule,
+        NgxCarouselModule,
+        NgProgressModule
     ]
 })
-export class SharedModule {
-}
+export class SharedModule {}
