@@ -88,27 +88,4 @@
             }
         }
     }
-
-    .sh-app-download {
-        margin-top: 60px;
-        position: relative;
-
-        .coming-soon {
-            &::after {
-                content: 'Coming Soon';
-                position: absolute;
-                background-color: $secondary-color;
-                border-radius: 100px;
-                color: $black;
-                padding: 2px 8px;
-                opacity: 1;
-                top: 0;
-                margin-top: -15px;
-            }
-        }
-
-        img {
-            width: 150px;
-        }
-    }
 }

@@ -7,14 +7,11 @@ import { BaseDonationComponent } from 'Donation/base-donation.component'
 import { MainDonationComponent } from 'Donation/c/main-donation/main-donation.component'
 
 @NgModule({
-    declarations: [
-        BaseDonationComponent, 
-        MainDonationComponent
-    ],
+    declarations: [BaseDonationComponent, MainDonationComponent],
     imports: [
-        RouterModule, 
-        CommonModule, 
-        SharedModule, 
+        RouterModule,
+        CommonModule,
+        SharedModule,
         RouterModule.forChild(DONATION_NAV)
     ]
 })
