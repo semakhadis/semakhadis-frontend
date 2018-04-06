@@ -1,0 +1,42 @@
+<section class="sh-kitab-widget-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="section-heading clearfix">
+                    <h4 class="section-title pull-left">Kitab</h4>
+                    <a class="section-link pull-right" href="">View More
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ngx-carousel [inputs]="kitabCarousel" class="sh-carousel-kitab">
+                            <ngx-item NgxCarouselItem *ngFor="let kitab of state.kitabs">
+                                <a href="">
+                                    <img [src]="kitab.image" [alt]="kitab.name" />
+                                    <h4>{{ kitab.name }}</h4>
+                                    <p>{{ kitab.writer }}</p>
+                                    <div class="overlay">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rem dolores ipsa
+                                            velit perspiciatis animi laboriosam excepturi eum sint!</p>
+
+                                        <span class="link">Lihat Kitab
+                                            <i class="fas fa-chevron-right"></i>
+                                        </span>
+                                    </div>
+                                </a>
+                            </ngx-item>
+                            <button NgxCarouselPrev class="btn btn-prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button NgxCarouselNext class="btn btn-next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </ngx-carousel>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

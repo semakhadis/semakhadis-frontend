@@ -45,12 +45,13 @@ textarea {
 // Links
 
 a {
-    color: $secondary-color;
+    color: $base-color-1;
     text-decoration: none;
+    transition: all 200ms;
 
     &:hover,
     &:focus {
-        color: darken($secondary-color, 20%);
+        color: darken($base-color-1, 5%);
     }
 
     &:focus {

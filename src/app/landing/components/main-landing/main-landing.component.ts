@@ -4,6 +4,8 @@ import { Component } from '@angular/core'
     template: `
         <v-hero-search></v-hero-search>
         
+        <v-kitab-widget></v-kitab-widget>
+        
         <v-chapter-widget></v-chapter-widget>
     `
 })

@@ -21,5 +21,4 @@ import { MainLandingComponent } from 'Landing/c/main-landing/main-landing.compon
         RouterModule.forChild(LANDING_NAV)
     ]
 })
-export class LandingModule {
-}
+export class LandingModule {}
