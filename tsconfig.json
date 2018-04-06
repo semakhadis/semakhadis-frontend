@@ -19,6 +19,10 @@
 
             "ContactDeveloper/*": ["app/contact-developer/*"],
             "ContactDeveloper/c/*": ["app/contact-developer/components/*"],
+            "ContactDeveloper/r/*": ["app/contact-developer/resolvers/*"],
+            "ContactDeveloper/s/*": ["app/contact-developer/services/*"],
+            "ContactDeveloper/d/*": ["app/contact-developer/directives/*"],
+            "ContactDeveloper/p/*": ["app/contact-developer/pipes/*"],
 
             "Donation/*": ["app/donation/*"],
             "Donation/c/*": ["app/donation/components/*"],
@@ -28,9 +32,24 @@
 
             "Hadith/*": ["app/hadith/*"],
             "Hadith/c/*": ["app/hadith/components/*"],
+            "Hadith/r/*": ["app/hadith/resolvers/*"],
+            "Hadith/s/*": ["app/hadith/services/*"],
+            "Hadith/d/*": ["app/hadith/directives/*"],
+            "Hadith/p/*": ["app/hadith/pipes/*"],
 
             "Landing/*": ["app/landing/*"],
-            "Landing/c/*": ["app/landing/components/*"]
+            "Landing/c/*": ["app/landing/components/*"],
+            "Landing/r/*": ["app/landing/resolvers/*"],
+            "Landing/s/*": ["app/landing/services/*"],
+            "Landing/d/*": ["app/landing/directives/*"],
+            "Landing/p/*": ["app/landing/pipes/*"],
+
+            "Reference/*": ["app/reference/*"],
+            "Reference/c/*": ["app/reference/components/*"],
+            "Reference/r/*": ["app/reference/resolvers/*"],
+            "Reference/s/*": ["app/reference/services/*"],
+            "Reference/d/*": ["app/reference/directives/*"],
+            "Reference/p/*": ["app/reference/pipes/*"]
         },
         "sourceMap": true,
         "declaration": false,
