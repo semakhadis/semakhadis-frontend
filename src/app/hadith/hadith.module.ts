@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 import { HADITH_NAV } from 'Hadith/hadith.nav'
 import { SharedModule } from 'App/_shared/_shared.module'
+import { FetchHadithResolver } from 'Hadith/r/fetch-hadith.resolver'
 import { FetchHadithsResolver } from 'Hadith/r/fetch-hadiths.resolver'
 
 import { BaseHadithComponent } from 'Hadith/base-hadith.component'
@@ -15,7 +16,8 @@ import { FooterReportComponent } from 'Hadith/c/footer-report/footer-report.comp
 
 @NgModule({
     providers: [
-        FetchHadithsResolver
+        FetchHadithResolver,
+        FetchHadithsResolver,
     ],
     declarations: [
         BaseHadithComponent,

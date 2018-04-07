@@ -11,14 +11,14 @@
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <ngx-carousel [inputs]="hadithCarousel" class="sh-carousel-hadith ngx-carousel-default">
+                        <ngx-carousel [inputs]="HADITH_CAROUSEL" class="sh-carousel-hadith ngx-carousel-default">
                             <ngx-item NgxCarouselItem *ngFor="let hadith of state.hadiths">
-                                <a href="">
+                                <a routerLink="hadith/{{ hadith.slug }}">
                                     <div class="carousel-header">
                                         <h4 class="carousel-title pull-left">{{ hadith.title }}</h4>
                                         <i class="fas fa-chevron-right pull-right"></i>
                                         <div class="clearfix"></div>
-                                        <p class="carousel-sub">{{ hadith.created_at }}</p>
+                                        <p class="carousel-sub">{{ hadith.created_at | differenceInCalendarWeeks }}</p>
                                     </div>
                                     <div class="carousel-body">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rem dolores ipsa

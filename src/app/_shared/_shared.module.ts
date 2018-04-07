@@ -7,12 +7,13 @@ import { NgxCarouselModule } from 'ngx-carousel'
 import { NgProgressModule } from 'ngx-progressbar'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { FooterComponent } from 'Components/footer/footer.component'
-import { CtaVolunteerComponent } from 'Components/cta-volunteer/cta-volunteer.component'
+import { DistanceInWordsToNowPipe } from 'Pipes/distance-in-words-to-now.pipe'
 import { DownloadAppComponent } from 'Components/download-app/download-app.component'
 import { ProgressBarComponent } from 'Components/progress-bar/progress-bar.component'
 import { KitabWidgetComponent } from 'Components/kitab-widget/kitab-widget.component'
-import { HadithWidgetComponent } from 'Components/hadith-widget/hadith-widget.component'
 import { BannerTitleComponent } from 'Components/banner-title/banner-title.component'
+import { CtaVolunteerComponent } from 'Components/cta-volunteer/cta-volunteer.component'
+import { HadithWidgetComponent } from 'Components/hadith-widget/hadith-widget.component'
 import { HadithSearchComponent } from 'Components/hadith-search/hadith-search.component'
 import { ChapterWidgetComponent } from 'Components/chapter-widget/chapter-widget.component'
 
@@ -26,7 +27,9 @@ const sharedComponent = [
     CtaVolunteerComponent,
     KitabWidgetComponent,
     HadithWidgetComponent,
-    ChapterWidgetComponent
+    ChapterWidgetComponent,
+
+    DistanceInWordsToNowPipe,
 ]
 
 @NgModule({

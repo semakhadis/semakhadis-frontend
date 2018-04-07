@@ -9,10 +9,6 @@ import { Component } from '@angular/core'
         <v-kitab-widget></v-kitab-widget>
         
         <v-chapter-widget></v-chapter-widget>
-        
-        <v-cta-volunteer></v-cta-volunteer>
-        
-        <v-footer></v-footer>
     `
 })
 export class MainLandingComponent {}
