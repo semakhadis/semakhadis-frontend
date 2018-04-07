@@ -8,7 +8,6 @@
             .item {
                 height: 190px;
                 padding: 10px 20px;
-                overflow: hidden;
 
                 .carousel-header {
                     border-bottom: 1px solid rgba($secondary-color, 0.5);
@@ -35,6 +34,8 @@
 
                 .carousel-body {
                     padding: 10px 0;
+                    height: 86px;
+                    overflow: hidden;
                 }
 
                 [class*='fa'] {
