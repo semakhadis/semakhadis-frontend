@@ -88,6 +88,7 @@ export class KitabWidgetComponent implements OnInit {
     ngOnInit(): void {
         this.kitabCarousel = {
             grid: { xs: 3, sm: 6, md: 7, lg: 7, all: 0 },
+            easing: 'ease-in',
             slide: 4,
             speed: 400,
             interval: 4000,
