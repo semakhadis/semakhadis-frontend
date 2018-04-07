@@ -2,11 +2,11 @@ import { Routes } from '@angular/router'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 
 export const APP_NAV: Routes = [
-   {
+    {
         path: '',
         component: NavbarComponent,
         children: [
-             {
+            {
                 path: '',
                 loadChildren: './landing/landing.module#LandingModule',
             }, {

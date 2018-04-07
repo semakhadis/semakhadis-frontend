@@ -16,7 +16,7 @@ export class FetchHadithsResolver implements Resolve<any> {
 
         this.ngProgress.start()
 
-        return this.hadithService.fetchHadith()
+        return this.hadithService.fetchHadiths()
                    .finally(() => this.ngProgress.done())
     };
 }
