@@ -6,6 +6,8 @@ import { CommonModule } from '@angular/common'
 import { NgxCarouselModule } from 'ngx-carousel'
 import { NgProgressModule } from 'ngx-progressbar'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
+import { FooterComponent } from 'Components/footer/footer.component'
+import { CtaVolunteerComponent } from 'Components/cta-volunteer/cta-volunteer.component'
 import { DownloadAppComponent } from 'Components/download-app/download-app.component'
 import { ProgressBarComponent } from 'Components/progress-bar/progress-bar.component'
 import { KitabWidgetComponent } from 'Components/kitab-widget/kitab-widget.component'
@@ -16,10 +18,12 @@ import { ChapterWidgetComponent } from 'Components/chapter-widget/chapter-widget
 
 const sharedComponent = [
     NavbarComponent,
+    FooterComponent,
     DownloadAppComponent,
     ProgressBarComponent,
     BannerTitleComponent,
     HadithSearchComponent,
+    CtaVolunteerComponent,
     KitabWidgetComponent,
     HadithWidgetComponent,
     ChapterWidgetComponent
