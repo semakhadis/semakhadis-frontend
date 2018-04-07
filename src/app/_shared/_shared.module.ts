@@ -8,10 +8,11 @@ import { NgProgressModule } from 'ngx-progressbar'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { DownloadAppComponent } from 'Components/download-app/download-app.component'
 import { ProgressBarComponent } from 'Components/progress-bar/progress-bar.component'
+import { KitabWidgetComponent } from 'Components/kitab-widget/kitab-widget.component'
+import { HadithWidgetComponent } from 'Components/hadith-widget/hadith-widget.component'
 import { BannerTitleComponent } from 'Components/banner-title/banner-title.component'
 import { HadithSearchComponent } from 'Components/hadith-search/hadith-search.component'
 import { ChapterWidgetComponent } from 'Components/chapter-widget/chapter-widget.component'
-import { KitabWidgetComponent } from 'Components/kitab-widget/kitab-widget.component'
 
 const sharedComponent = [
     NavbarComponent,
@@ -19,8 +20,9 @@ const sharedComponent = [
     ProgressBarComponent,
     BannerTitleComponent,
     HadithSearchComponent,
-    ChapterWidgetComponent,
-    KitabWidgetComponent
+    KitabWidgetComponent,
+    HadithWidgetComponent,
+    ChapterWidgetComponent
 ]
 
 @NgModule({

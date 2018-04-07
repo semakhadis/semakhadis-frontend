@@ -6,11 +6,7 @@
             height: 320px;
 
             .item {
-                position: relative;
-                background-color: $white;
                 height: 300px;
-                border-radius: 4px;
-                box-shadow: 0 2px 9px 0 rgba(5, 5, 5, 0.12);
 
                 h4,
                 p,
@@ -79,43 +75,11 @@
                 border-top-left-radius: 4px;
                 object-fit: cover;
             }
-
-            .item + .item {
-                margin-left: 20px;
-            }
         }
 
         .btn-prev,
         .btn-next {
-            color: $base-color-1;
-            background-color: $white;
-            border-radius: 100px;
-            box-shadow: 0 2px 9px 0 rgba(5, 5, 5, 0.12);
-            position: absolute;
             top: 30%;
-            margin: 0 5px;
-        }
-
-        .btn-prev {
-            left: 0;
-        }
-
-        .btn-next {
-            right: 0;
-        }
-
-        .ngxcarouselPointDefault {
-            .ngxcarouselPoint {
-                li {
-                    background-color: darken($body-bg, 10%) !important;
-                    margin: 0 3px;
-
-                    &.active {
-                        background-color: $base-color-1 !important;
-                        transform: scale(1) !important;
-                    }
-                }
-            }
         }
     }
 }

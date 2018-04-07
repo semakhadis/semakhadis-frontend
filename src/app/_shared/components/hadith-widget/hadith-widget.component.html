@@ -1,9 +1,9 @@
-<section class="sh-kitab-widget-section">
+<section class="sh-hadith-widget-section">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="section-heading clearfix">
-                    <h4 class="section-title pull-left">Kitab</h4>
+                    <h4 class="section-title pull-left">Hadis Terkini</h4>
                     <a class="section-link pull-right" href="">View More
                         <i class="fas fa-chevron-right"></i>
                     </a>
@@ -11,19 +11,18 @@
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <ngx-carousel [inputs]="kitabCarousel" class="sh-carousel-kitab ngx-carousel-default">
-                            <ngx-item NgxCarouselItem *ngFor="let kitab of state.kitabs">
+                        <ngx-carousel [inputs]="hadithCarousel" class="sh-carousel-hadith ngx-carousel-default">
+                            <ngx-item NgxCarouselItem *ngFor="let hadith of state.hadiths">
                                 <a href="">
-                                    <img [src]="kitab.image" [alt]="kitab.name" />
-                                    <h4>{{ kitab.name }}</h4>
-                                    <p>{{ kitab.writer }}</p>
-                                    <div class="overlay">
+                                    <div class="carousel-header">
+                                        <h4 class="carousel-title pull-left">{{ hadith.title }}</h4>
+                                        <i class="fas fa-chevron-right pull-right"></i>
+                                        <div class="clearfix"></div>
+                                        <p class="carousel-sub">{{ hadith.created_at }}</p>
+                                    </div>
+                                    <div class="carousel-body">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rem dolores ipsa
                                             velit perspiciatis animi laboriosam excepturi eum sint!</p>
-
-                                        <span class="link">Lihat Kitab
-                                            <i class="fas fa-chevron-right"></i>
-                                        </span>
                                     </div>
                                 </a>
                             </ngx-item>
