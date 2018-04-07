@@ -1,0 +1,62 @@
+@import '~scss/base/variables';
+@import '~scss/mixins/mixins';
+@import '~scss/base/variables';
+
+.sh-footer-section {
+    padding: 0;
+
+    .footer-body {
+        border-top: 1px solid darken($default-color, 2%);
+        padding: 30px 0;
+
+        @include media-breakpoint-down(sm) {
+            .sh-copyright,
+            .sh-social-icon,
+            .sh-email {
+                text-align: center !important;
+                margin: 10px 0;
+            }
+        }
+
+        .list-inline {
+            margin-bottom: 0;
+
+            > li {
+                line-height: 25px;
+            }
+        }
+
+        .sh-copyright {
+            text-align: left;
+
+            @include media-breakpoint-down(sm) {
+                ul > li {
+                    display: list-item;
+                }
+            }
+        }
+
+        .sh-social-icon {
+            text-align: center;
+
+            ul > li {
+                a {
+                    font-size: 25px;
+                    color: darken($default-color, 20%);
+                    margin-left: 3px;
+                    margin-right: 3px;
+
+                    &:hover {
+                        color: $black;
+                    }
+                }
+            }
+        }
+
+        .sh-email {
+            text-align: right;
+            line-height: 25px;
+            font-weight: 500;
+        }
+    }
+}
