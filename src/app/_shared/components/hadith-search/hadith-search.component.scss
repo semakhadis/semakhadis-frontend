@@ -2,6 +2,10 @@
 @import '~scss/mixins/mixins';
 @import '~scss/base/variables';
 
+.form-group {
+    margin-bottom: 0;
+}
+
 .form-control {
     height: 100%;
     border: 0;
