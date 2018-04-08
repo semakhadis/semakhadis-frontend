@@ -11,14 +11,19 @@ $gray-900: #212529;
 $black: #312d2d;
 $black-scorpion: #5b5b5b;
 $base-color-1: #28c0a9;
-$base-color-2: #2ca4ab;
-$base-gradient-color: linear-gradient(-57deg, #28c0a9 0%, #2ca4ab 100%);
+$base-color-2: #2fb3ac;
+$base-gradient-color: linear-gradient(
+    -57deg,
+    $base-color-1 0%,
+    $base-color-2 100%
+);
 
 $primary-color: $base-color-1;
 $secondary-color: #f4e8b8;
 $default-color: #ebeef1;
 
 $font-family-base: 'Colfax', 'Open Sans', sans-serif;
+$font-family-arabic: 'Bahij Fedra Arabic', 'Open Sans', sans-serif;
 
 $line-height-computed: 40px;
 $navbar-height: 70px;

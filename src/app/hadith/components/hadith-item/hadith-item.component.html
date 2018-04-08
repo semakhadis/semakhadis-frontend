@@ -1,0 +1,35 @@
+<section class="sh-hadith-item-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="panel panel-hadith-body">
+                    <div class="panel-body">
+                        <h4>{{ state.hadith.title }}</h4>
+
+                        <div class="sh-content">
+                            <h6 class="sh-key">Teks Bahasa Arab</h6>
+                            <p class="sh-value sh-arabic-text">{{ state.hadith.text_arab }}</p>
+                        </div>
+
+                        <div class="sh-content">
+                            <h6 class="sh-key">Teks Bahasa Malaysia</h6>
+                            <p class="sh-value">{{ state.hadith.text_melayu }}</p>
+                        </div>
+
+                        <div class="sh-content">
+                            <h6 class="sh-key">Komentar Ulama/Pengkaji Hadis</h6>
+                            <p class="sh-value sh-html-render">{{ state.hadith.komentar_ulama }}</p>
+                        </div>
+
+                        <div class="sh-content">
+                            <h6 class="sh-key">Rujukan</h6>
+                            <ul class="sh-value">
+                                <li *ngFor="let rujukan of state.hadith.rujukan">{{ rujukan }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
