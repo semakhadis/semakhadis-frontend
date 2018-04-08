@@ -1,7 +1,26 @@
+@import '~scss/mixins/mixins';
 @import '~scss/base/variables';
 
 .sh-hadith-item-section {
-    .panel-hadith-body {
+    @include media-breakpoint-down(md) {
+        padding-top: 50px;
+    }
+
+    .panel-hadith-content {
+        .panel-heading {
+            position: absolute;
+            top: -24px;
+            right: 40px;
+            padding: 5px 15px;
+            background-color: $secondary-color;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
         h4 {
             margin-top: 0;
             line-height: 1.3;
