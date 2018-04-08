@@ -38,6 +38,7 @@
         "ngx-progressbar": "^2.1.1",
         "rxjs": "^5.5.6",
         "sass-convert": "^0.5.2",
+        "yarn": "^1.5.1",
         "zone.js": "^0.8.19"
     },
     "devDependencies": {
