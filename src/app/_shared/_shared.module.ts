@@ -29,8 +29,7 @@ const sharedComponent = [
     KitabWidgetComponent,
     HadithWidgetComponent,
     ChapterWidgetComponent,
-    HadithNextPrevComponent
-
+    HadithNextPrevComponent,
     DistanceInWordsToNowPipe
 ]
 
