@@ -1,0 +1,54 @@
+@import '~scss/base/variables';
+
+.sh-hadith-next-prev {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .sh-prev,
+    .sh-next {
+        p:first-child {
+            font-weight: 500;
+            margin-bottom: 4px;
+        }
+
+        p:last-child {
+            color: $black;
+        }
+
+        [class*='fa'] {
+            position: relative;
+            transition: left 0.3s, right 0.3s;
+        }
+    }
+
+    .sh-prev {
+        text-align: left;
+        border-right: 2px solid $default-color;
+
+        [class*='fa'] {
+            margin-right: 10px;
+            left: 0;
+        }
+
+        &:hover {
+            [class*='fa'] {
+                left: -5px;
+            }
+        }
+    }
+
+    .sh-next {
+        text-align: right;
+
+        [class*='fa'] {
+            margin-left: 10px;
+            right: 0;
+        }
+
+        &:hover {
+            [class*='fa'] {
+                right: -5px;
+            }
+        }
+    }
+}

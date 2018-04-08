@@ -16,6 +16,7 @@ import { CtaVolunteerComponent } from 'Components/cta-volunteer/cta-volunteer.co
 import { HadithWidgetComponent } from 'Components/hadith-widget/hadith-widget.component'
 import { HadithSearchComponent } from 'Components/hadith-search/hadith-search.component'
 import { ChapterWidgetComponent } from 'Components/chapter-widget/chapter-widget.component'
+import { HadithNextPrevComponent } from 'Components/hadith-next-prev/hadith-next-prev.component'
 
 const sharedComponent = [
     NavbarComponent,
@@ -28,8 +29,9 @@ const sharedComponent = [
     KitabWidgetComponent,
     HadithWidgetComponent,
     ChapterWidgetComponent,
+    HadithNextPrevComponent
 
-    DistanceInWordsToNowPipe,
+    DistanceInWordsToNowPipe
 ]
 
 @NgModule({
