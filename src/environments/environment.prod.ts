@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    api: 'http://localhost:3000',
+    api: 'https://dev.semakhadis.com:80',
     hmr: false
 }
