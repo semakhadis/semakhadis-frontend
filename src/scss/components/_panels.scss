@@ -10,6 +10,10 @@
     border-radius: $panel-border-radius;
     border: 7px solid rgba(202, 202, 202, 0.31);
     padding: 40px 50px;
+
+    @include media-breakpoint-down(md) {
+        padding: 30px;
+    }
 }
 
 // Panel contents

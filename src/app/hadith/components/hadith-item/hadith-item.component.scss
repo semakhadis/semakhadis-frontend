@@ -18,19 +18,19 @@
             .sh-value {
                 font-weight: 400;
 
-                li {
+                > li {
                     font-size: 15px;
                     padding: 5px 0;
                 }
 
-                .sh-arabic-text {
+                &.sh-arabic-text {
                     font-family: $font-family-arabic;
                     text-align: right;
                     font-size: 22px;
                     word-spacing: 5px;
                 }
 
-                .sh-html-render {
+                &.sh-html-render {
                     background-color: $gray-100;
                     border-radius: 6px;
                     padding: 20px;
