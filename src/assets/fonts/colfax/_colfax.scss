@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'Colfax';
-    src: url('assets/fonts/colfax/Colfax-Bold.eot');
-    src: url('assets/fonts/colfax/Colfax-Bold.eot?#iefix')
+    src: url('/assets/fonts/colfax/Colfax-Bold.eot');
+    src: url('/assets/fonts/colfax/Colfax-Bold.eot?#iefix')
             format('embedded-opentype'),
-        url('assets/fonts/colfax/Colfax-Bold.woff2') format('woff2'),
-        url('assets/fonts/colfax/Colfax-Bold.woff') format('woff'),
-        url('assets/fonts/colfax/Colfax-Bold.ttf') format('truetype'),
-        url('assets/fonts/colfax/Colfax-Bold.otf') format('opentype'),
-        url('assets/fonts/colfax/Colfax-Bold.svg#Colfax-Bold') format('svg');
+        url('/assets/fonts/colfax/Colfax-Bold.woff2') format('woff2'),
+        url('/assets/fonts/colfax/Colfax-Bold.woff') format('woff'),
+        url('/assets/fonts/colfax/Colfax-Bold.ttf') format('truetype'),
+        url('/assets/fonts/colfax/Colfax-Bold.otf') format('opentype'),
+        url('/assets/fonts/colfax/Colfax-Bold.svg#Colfax-Bold') format('svg');
     font-weight: 700;
     font-style: normal;
     font-stretch: normal;
@@ -18,14 +18,15 @@
 
 @font-face {
     font-family: 'Colfax';
-    src: url('assets/fonts/colfax/Colfax-Medium.eot');
-    src: url('assets/fonts/colfax/Colfax-Medium.eot?#iefix')
+    src: url('/assets/fonts/colfax/Colfax-Medium.eot');
+    src: url('/assets/fonts/colfax/Colfax-Medium.eot?#iefix')
             format('embedded-opentype'),
-        url('assets/fonts/colfax/Colfax-Medium.woff2') format('woff2'),
-        url('assets/fonts/colfax/Colfax-Medium.woff') format('woff'),
-        url('assets/fonts/colfax/Colfax-Medium.ttf') format('truetype'),
-        url('assets/fonts/colfax/Colfax-Medium.otf') format('opentype'),
-        url('assets/fonts/colfax/Colfax-Medium.svg#Colfax-Medium') format('svg');
+        url('/assets/fonts/colfax/Colfax-Medium.woff2') format('woff2'),
+        url('/assets/fonts/colfax/Colfax-Medium.woff') format('woff'),
+        url('/assets/fonts/colfax/Colfax-Medium.ttf') format('truetype'),
+        url('/assets/fonts/colfax/Colfax-Medium.otf') format('opentype'),
+        url('/assets/fonts/colfax/Colfax-Medium.svg#Colfax-Medium')
+            format('svg');
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -34,14 +35,14 @@
 
 @font-face {
     font-family: 'Colfax';
-    src: url('assets/fonts/colfax/Colfax-Regular.eot');
-    src: url('assets/fonts/colfax/Colfax-Regular.eot?#iefix')
+    src: url('/assets/fonts/colfax/Colfax-Regular.eot');
+    src: url('/assets/fonts/colfax/Colfax-Regular.eot?#iefix')
             format('embedded-opentype'),
-        url('assets/fonts/colfax/Colfax-Regular.woff2') format('woff2'),
-        url('assets/fonts/colfax/Colfax-Regular.woff') format('woff'),
-        url('assets/fonts/colfax/Colfax-Regular.ttf') format('truetype'),
-        url('assets/fonts/colfax/Colfax-Regular.otf') format('opentype'),
-        url('assets/fonts/colfax/Colfax-Regular.svg#Colfax-Regular')
+        url('/assets/fonts/colfax/Colfax-Regular.woff2') format('woff2'),
+        url('/assets/fonts/colfax/Colfax-Regular.woff') format('woff'),
+        url('/assets/fonts/colfax/Colfax-Regular.ttf') format('truetype'),
+        url('/assets/fonts/colfax/Colfax-Regular.otf') format('opentype'),
+        url('/assets/fonts/colfax/Colfax-Regular.svg#Colfax-Regular')
             format('svg');
     font-weight: 400;
     font-style: normal;
