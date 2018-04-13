@@ -1,3 +1,4 @@
+import 'rxjs/add/operator/delay'
 import 'rxjs/add/operator/finally'
 import { Injectable } from '@angular/core'
 import { NgProgress } from 'ngx-progressbar'
@@ -19,6 +20,7 @@ export class FetchHadithResolver implements Resolve<any> {
         const hadith_slug: string = route.paramMap.get('slug')
 
         return this.hadithService.fetchHadith(hadith_slug)
+                   .delay(1000)
                    .finally(() => this.ngProgress.done())
     };
 }

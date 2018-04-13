@@ -8,7 +8,9 @@ if (environment.production) {
     enableProdMode()
 }
 
-const bootstrap = () => platformBrowserDynamic().bootstrapModule(AppModule)
+const bootstrap = () => platformBrowserDynamic().bootstrapModule(AppModule, {
+    preserveWhitespaces: false
+})
 
 if (environment.hmr) {
     if (module[ 'hot' ]) {

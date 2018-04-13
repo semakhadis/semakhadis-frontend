@@ -1,8 +1,9 @@
 import { ActivatedRoute } from '@angular/router'
 import { Component, OnInit } from '@angular/core'
+import { NgProgress } from 'ngx-progressbar'
 
 @Component({
-    templateUrl: './main-hadith.component.html',
+    templateUrl: 'main-hadith.component.html',
     styleUrls: [ 'main-hadith.component.scss' ]
 })
 export class MainHadithComponent implements OnInit {

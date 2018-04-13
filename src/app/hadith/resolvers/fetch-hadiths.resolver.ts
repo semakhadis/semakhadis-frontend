@@ -1,4 +1,3 @@
-import 'rxjs/add/operator/delay'
 import 'rxjs/add/operator/finally'
 import { Resolve } from '@angular/router'
 import { Injectable } from '@angular/core'
@@ -15,7 +14,6 @@ export class FetchHadithsResolver implements Resolve<any> {
     resolve = () => {
 
         this.ngProgress.start()
-
         return this.hadithService.fetchHadiths()
                    .finally(() => this.ngProgress.done())
     };
