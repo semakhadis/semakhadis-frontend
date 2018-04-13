@@ -1,21 +1,20 @@
-<!-- <v-banner-title [title]="'Hadith'"></v-banner-title> -->
+ <!--<v-banner-title [title]="'Hadith'"></v-banner-title> -->
 <section class="sh-hadith-section">
     <div class="container">
         <div class="row sh-top">
             <div class="col-xs-6 col-sm-6 col-md-8 col-lg-9">
                 <p class="pull-left">250 hadis dijumpai untuk “solat”</p>
-                <div class="">
-                    <div class="form-group pull-right">
-                        <label for="filter-list" class="control-label">Sort by</label>
-                        <select id="filter-list" class="form-control">
-                            <option>Alphabet A - Z</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select>
-                    </div>
+                <div class="form-group pull-right">
+                    <label for="filter-list" class="control-label">Sort by</label>
+                    <select id="filter-list" class="form-control">
+                        <option>Alphabet A - Z</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
                 </div>
+
             </div>
         </div>
 
@@ -24,14 +23,15 @@
                 <div class="panel">
                     <div class="panel-body">
                         <ul class="list-unstyled">
+                            <a routerLink="/hadith/create" class="btn btn-base pull-right">Add new hadith</a>
 
                             <ng-container *ngFor="let hadith of state.hadiths">
                                 <li class="h-item">
-                                    <a href="">
+                                    <a routerLink="/hadith/{{ hadith.slug }}">
                                         <p class="h-status">{{ hadith.status_hadith }}</p>
                                         <p class="h-title">{{ hadith.title }}</p>
-                                        <p class="h-arabic" *ngIf="hadith.text_arab.length > 0">{{ hadith.text_arab }}</p>
-                                        <p class="h-malay" *ngIf="hadith.text_melayu.length > 0">{{ hadith.text_melayu }}</p>
+                                        <p class="h-arabic" *ngIf="hadith.text_arab">{{ hadith.text_arab }}</p>
+                                        <p class="h-malay" *ngIf="hadith.text_melayu">{{ hadith.text_melayu }}</p>
                                     </a>
                                 </li>
                             </ng-container>

@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
+import { ContactUsComponent } from 'Components/contact-us/contact-us.component'
 
 export const APP_NAV: Routes = [
     {
@@ -27,6 +28,12 @@ export const APP_NAV: Routes = [
             }, {
                 path: 'hadith',
                 loadChildren: './hadith/hadith.module#HadithModule',
+            }, {
+                path: 'kitab',
+                loadChildren: './kitab/kitab.module#KitabModule',
+            }, {
+                path: 'contact-us',
+                component: ContactUsComponent,
             },
             { path: '**', redirectTo: '/404' },
         ]

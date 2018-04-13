@@ -8,7 +8,8 @@
                 <div class="row">
                     <ng-container *ngFor="let bab of state.babs">
                         <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
-                            <a href="" class="item">
+                            <a class="item" routerLink="/hadith"
+                               [queryParams]="{ bab: bab.slug }">
                                 <span class="name">{{ bab.name }}</span>
                                 <span class="counter">{{ bab.count }}</span>
                                 <i class="fas fa-chevron-right"></i>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { EDITOR_CONFIG } from 'Helpers/editor-config'
 import { ToastService } from 'Services/toast.service'
 import { HadithService } from 'Services/hadith.service'
 
@@ -17,9 +18,9 @@ export class CreateHadithComponent {
     }
 
     meta = {
-        editorConfig,
         isError: false,
         isLoading: false,
+        editorConfig: EDITOR_CONFIG,
     }
 
     constructor(private hadith: HadithService,
@@ -82,23 +83,4 @@ export class CreateHadithComponent {
     }
 }
 
-const editorConfig = {
-    minWidth: '0',
-    width: 'auto',
-    height: 'auto',
-    editable: true,
-    spellcheck: true,
-    translate: 'yes',
-    showToolbar: true,
-    minHeight: '300px',
-    enableToolbar: true,
-    placeholder: 'Enter text here...',
-    toolbar: [
-        [ 'bold', 'italic', 'underline', 'strikeThrough', 'superscript', 'subscript' ],
-        // ["justifyLeft", "justifyCenter", "justifyRight", "justifyFull", "indent", "outdent"],
-        [ 'cut', 'copy', 'delete', 'removeFormat', 'undo', 'redo' ],
-        [ 'paragraph', 'blockquote', 'removeBlockquote', 'horizontalLine', 'orderedList', 'unorderedList' ],
-        [ 'link', 'unlink', 'image' ],
-        [ 'code' ]
-    ]
-};
+
