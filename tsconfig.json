@@ -59,9 +59,6 @@
         "experimentalDecorators": true,
         "target": "es5",
         "typeRoots": ["node_modules/@types"],
-        "lib": ["es2017", "dom"],
-        "angularCompilerOptions": {
-            "preserveWhitespaces": false
-        }
+        "lib": ["es2017", "dom"]
     }
 }

@@ -11,7 +11,7 @@ branches:
 
 before_script:
  - yarn install --production
- - yarn -D add typescript@~2.5.3 @angular/compiler-cli@^5.2.0
+ - yarn -D add typescript@2.6.2 @angular/compiler-cli@5.2.9
 
 script:
  - npm run build
