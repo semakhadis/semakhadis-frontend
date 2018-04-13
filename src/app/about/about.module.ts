@@ -7,7 +7,16 @@ import { BaseAboutComponent } from 'About/base-about.component'
 import { MainAboutComponent } from 'About/c/main-about/main-about.component'
 
 @NgModule({
-    declarations: [MainAboutComponent, BaseAboutComponent],
-    imports: [RouterModule, CommonModule, SharedModule, RouterModule.forChild(ABOUT_NAV)]
+    declarations: [
+        MainAboutComponent,
+        BaseAboutComponent
+    ],
+    imports: [
+        RouterModule,
+        CommonModule,
+        SharedModule,
+        RouterModule.forChild(ABOUT_NAV)
+    ]
 })
-export class AboutModule {}
+export class AboutModule {
+}
