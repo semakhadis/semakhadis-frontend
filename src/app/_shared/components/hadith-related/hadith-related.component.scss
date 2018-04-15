@@ -1,0 +1,36 @@
+@import '~scss/mixins/mixins';
+@import '~scss/base/variables';
+
+.sh-hadis-related-section {
+    .item {
+        background-color: $secondary-color;
+        border-radius: 6px;
+        padding: 20px;
+        height: 160px;
+        transition: background-color 0.3s;
+        margin: 10px 0;
+
+        @include media-breakpoint-down('sm') {
+            height: 130px;
+        }
+
+        a {
+            color: $black;
+        }
+
+        h5 {
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 0;
+            line-height: 1.2;
+        }
+
+        &:hover {
+            background-color: darken($secondary-color, 5%);
+        }
+    }
+}

@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core'
     styleUrls: ['hadith-list.component.scss']
 })
 export class HadithListComponent {
-    @Input() hadiths: any
+    @Input() hadiths: Object
 }

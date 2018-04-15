@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 import { NgxCarouselModule } from 'ngx-carousel'
+import { TruncatePipe } from 'Pipes/truncate.pipe'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { FooterComponent } from 'Components/footer/footer.component'
 import { DistanceInWordsToNowPipe } from 'Pipes/distance-in-words-to-now.pipe'
@@ -16,8 +17,10 @@ import { HadithWidgetComponent } from 'Components/hadith-widget/hadith-widget.co
 import { HadithSearchComponent } from 'Components/hadith-search/hadith-search.component'
 import { ChapterWidgetComponent } from 'Components/chapter-widget/chapter-widget.component'
 import { HadithNextPrevComponent } from 'Components/hadith-next-prev/hadith-next-prev.component'
+import { HadithUserAlsoReadComponent } from 'Components/hadith-related/hadith-related.component'
 
 const sharedComponent = [
+    TruncatePipe,
     NavbarComponent,
     FooterComponent,
     ContactUsComponent,
@@ -30,7 +33,8 @@ const sharedComponent = [
     CtaVolunteerComponent,
     ChapterWidgetComponent,
     HadithNextPrevComponent,
-    DistanceInWordsToNowPipe
+    DistanceInWordsToNowPipe,
+    HadithUserAlsoReadComponent
 ]
 
 @NgModule({
