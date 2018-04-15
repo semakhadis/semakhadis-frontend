@@ -16,6 +16,7 @@ import { BabService } from 'Services/bab.service'
 import { ApiService } from 'Services/api.service'
 import { AppService } from 'Services/app.service'
 import { AuthService } from 'Services/auth.service'
+import { KitabService } from 'Services/kitab.service'
 import { ToastService } from 'Services/toast.service'
 import { HadithService } from 'Services/hadith.service'
 import { SearchService } from 'Services/search.service'
@@ -45,6 +46,7 @@ import { ProgressBarComponent } from 'Components/progress-bar/progress-bar.compo
         ApiService,
         BabService,
         AuthService,
+        KitabService,
         ToastService,
         HadithService,
         SearchService,

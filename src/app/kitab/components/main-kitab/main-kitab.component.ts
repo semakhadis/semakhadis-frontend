@@ -1,12 +1,12 @@
-import { Component } from '@angular/core'
+import { ActivatedRoute } from '@angular/router'
+import { Component, OnInit } from '@angular/core'
 
 @Component({
     templateUrl: 'main-kitab.component.html',
-    styleUrls: ['main-kitab.component.scss']
+    styleUrls: [ 'main-kitab.component.scss' ]
 })
-export class MainKitabComponent {
-    state = {
-        kitabs: [
+export class MainKitabComponent implements OnInit {
+    state = { kitabs: [
             {
                 slug: 'nama-kitab',
                 name: 'Al-Manar Al-Munif',
@@ -22,14 +22,14 @@ export class MainKitabComponent {
             {
                 slug: 'nama-kitab',
                 // tslint:disable-next-line:quotemark
-                name: "Silsilah Al-Ahadith Al-Da'ifah",
+                name: 'Silsilah Al-Ahadith Al-Da\'ifah',
                 image: '/assets/images/kitab-2.jpg',
                 writer: 'Penulis 3'
             },
             {
                 slug: 'nama-kitab',
                 // tslint:disable-next-line:quotemark
-                name: "Tanzih Al-Shari'Ah",
+                name: 'Tanzih Al-Shari\'Ah',
                 image: '/assets/images/kitab.jpg',
                 writer: 'Penulis 4'
             },
@@ -93,6 +93,13 @@ export class MainKitabComponent {
                 image: '/assets/images/kitab.jpg',
                 writer: 'Penulis 14'
             }
-        ]
+        ] }
+
+    constructor(private route: ActivatedRoute) {
     }
+
+    ngOnInit(): void {
+        this.state.kitabs = this.route.snapshot.data[ 'kitabs' ]
+    }
+
 }

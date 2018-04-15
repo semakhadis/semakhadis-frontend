@@ -40,6 +40,11 @@ const sharedComponent = [
 @NgModule({
     exports: [...sharedComponent],
     declarations: [...sharedComponent],
-    imports: [FormsModule, RouterModule, CommonModule, NgxCarouselModule]
+    imports: [
+        FormsModule,
+        RouterModule,
+        CommonModule,
+        NgxCarouselModule
+    ]
 })
 export class SharedModule {}
