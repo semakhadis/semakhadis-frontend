@@ -6,8 +6,6 @@ import { Component } from '@angular/core'
         <v-progress-bar></v-progress-bar>
         <router-outlet></router-outlet>
         <ng2-toasty position="top-right"></ng2-toasty>
-    `,
+    `
 })
-export class AppComponent {
-
-}
+export class AppComponent {}

@@ -1,0 +1,38 @@
+<v-banner-title [title]="'Kitab'"></v-banner-title>
+
+<v-kitab-widget class="sh-kitab-widget"></v-kitab-widget>
+
+<section class="sh-kitab-section">
+    <div class="container">
+        <div class="row sh-top">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p class="pull-left">250 kitab terkumpul</p>
+                <div class="form-group pull-right">
+                    <label for="filter-list" class="control-label">Search</label>
+                    <input type="text" class="form-control" placeholder="Enter keywords">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="panel">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2" *ngFor="let item of state.kitabs">
+                                <a routerLink="/kitab/{{ item.slug }}">
+                                    <div class="item">
+                                        <img class="img-responsive" [src]="item.image" alt="kitab" />
+                                        <h4>{{ item.name }}</h4>
+                                        <p>{{ item.writer }}</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
