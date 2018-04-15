@@ -27,9 +27,10 @@ export class HadithWidgetComponent extends ComponentUtilitiesService implements 
 
         this.meta.isLoading = true
 
-        const fetchHadiths$ = this.hadithService.fetchHadiths()
-                                  .finally(() => this.meta.isLoading = false)
-                                  .subscribe(hadiths => this.state.hadiths = hadiths)
+        const fetchHadiths$ =
+            this.hadithService.fetchHadiths()
+                .finally(() => this.meta.isLoading = false)
+                .subscribe(hadiths => this.state.hadiths = hadiths)
 
         this.addSubscription(fetchHadiths$)
     }

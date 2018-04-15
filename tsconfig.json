@@ -17,6 +17,13 @@
             "About/*": ["app/about/*"],
             "About/c/*": ["app/about/components/*"],
 
+            "Auth/*": ["app/auth/*"],
+            "Auth/c/*": ["app/auth/components/*"],
+            "Auth/r/*": ["app/auth/resolvers/*"],
+            "Auth/s/*": ["app/auth/services/*"],
+            "Auth/d/*": ["app/auth/directives/*"],
+            "Auth/p/*": ["app/auth/pipes/*"],
+
             "ContactDeveloper/*": ["app/contact-developer/*"],
             "ContactDeveloper/c/*": ["app/contact-developer/components/*"],
             "ContactDeveloper/r/*": ["app/contact-developer/resolvers/*"],

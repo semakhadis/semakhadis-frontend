@@ -7,9 +7,9 @@ import { Router, NavigationEnd } from '@angular/router'
     styleUrls: ['navbar.component.scss']
 })
 export class NavbarComponent {
-    hamburgerIsActive: boolean = false
     currentRoute: string
     isResolving: boolean
+    hamburgerIsActive: boolean
 
     constructor(private router: Router) {
         this.router.events.subscribe(event => {
@@ -20,11 +20,4 @@ export class NavbarComponent {
         })
     }
 
-    toggleHamburger() {
-        this.hamburgerIsActive = !this.hamburgerIsActive
-    }
-
-    isIndexRoute() {
-        return this.currentRoute === '/'
-    }
 }
