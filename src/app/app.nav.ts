@@ -5,6 +5,10 @@ import { ContactUsComponent } from 'Components/contact-us/contact-us.component'
 
 export const APP_NAV: Routes = [
     {
+        path: 'auth',
+        loadChildren: './auth/auth.module#AuthModule',
+    },
+    {
         path: '',
         component: NavbarComponent,
         children: [
