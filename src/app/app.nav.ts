@@ -31,13 +31,14 @@ export const APP_NAV: Routes = [
             }, {
                 path: 'kitab',
                 loadChildren: './kitab/kitab.module#KitabModule',
-            }, {
-                path: 'contact-us',
-                component: ContactUsComponent,
             },
-            { path: '**', redirectTo: '/404' },
         ]
-    }
+    },
+    {
+        path: 'contact-us',
+        component: ContactUsComponent,
+    },
+    { path: '**', redirectTo: '/404' },
 ];
 
 /*
