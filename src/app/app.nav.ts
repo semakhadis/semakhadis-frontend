@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router'
+import { FooterComponent } from 'Components/footer/footer.component'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { ContactUsComponent } from 'Components/contact-us/contact-us.component'
 
@@ -9,36 +10,49 @@ export const APP_NAV: Routes = [
         children: [
             {
                 path: '',
-                loadChildren: './landing/landing.module#LandingModule',
-            }, {
-                path: 'about',
-                loadChildren: './about/about.module#AboutModule',
-            }, {
-                path: 'contact-developer',
-                loadChildren: './contact-developer/contact-developer.module#ContactDeveloperModule',
-            }, {
-                path: 'donation',
-                loadChildren: './donation/donation.module#DonationModule',
-            }, {
-                path: 'faq',
-                loadChildren: './faq/faq.module#FaqModule',
-            }, {
-                path: 'reference',
-                loadChildren: './reference/reference.module#ReferenceModule',
-            }, {
-                path: 'hadith',
-                loadChildren: './hadith/hadith.module#HadithModule',
-            }, {
-                path: 'kitab',
-                loadChildren: './kitab/kitab.module#KitabModule',
+                component: FooterComponent,
+                children: [
+                    {
+                        path: '',
+                        loadChildren: './landing/landing.module#LandingModule',
+                    },
+                    {
+                        path: 'about',
+                        loadChildren: './about/about.module#AboutModule',
+                    },
+                    {
+                        path: 'contact-developer',
+                        loadChildren: './contact-developer/contact-developer.module#ContactDeveloperModule',
+                    },
+                    {
+                        path: 'donation',
+                        loadChildren: './donation/donation.module#DonationModule',
+                    },
+                    {
+                        path: 'faq',
+                        loadChildren: './faq/faq.module#FaqModule',
+                    },
+                    {
+                        path: 'reference',
+                        loadChildren: './reference/reference.module#ReferenceModule',
+                    },
+                    {
+                        path: 'hadith',
+                        loadChildren: './hadith/hadith.module#HadithModule',
+                    },
+                    {
+                        path: 'kitab',
+                        loadChildren: './kitab/kitab.module#KitabModule',
+                    },
+                ]
             },
+            {
+                path: 'contact-us',
+                component: ContactUsComponent,
+            },
+            { path: '**', redirectTo: '/404' },
         ]
     },
-    {
-        path: 'contact-us',
-        component: ContactUsComponent,
-    },
-    { path: '**', redirectTo: '/404' },
 ];
 
 /*
