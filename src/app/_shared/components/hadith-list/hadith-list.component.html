@@ -1,0 +1,14 @@
+<div class="sh-hadith-list">
+    <ul class="list-unstyled">
+        <ng-container *ngFor="let hadith of hadiths">
+            <li class="h-item">
+                <a routerLink="/hadith/{{ hadith.slug }}">
+                    <p class="h-status">{{ hadith.status_hadith }}</p>
+                    <p class="h-title">{{ hadith.title }}</p>
+                    <p class="h-arabic" *ngIf="hadith.text_arab">{{ hadith.text_arab }}</p>
+                    <p class="h-malay" *ngIf="hadith.text_melayu">{{ hadith.text_melayu }}</p>
+                </a>
+            </li>
+        </ng-container>
+    </ul>
+</div>

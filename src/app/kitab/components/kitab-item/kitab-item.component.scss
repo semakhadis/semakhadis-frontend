@@ -1,0 +1,26 @@
+@import '~scss/base/variables';
+
+.sh-kitab-item-section {
+    .kitab-detail {
+        img {
+            border-radius: 4px;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            box-shadow: 0 2px 9px 0 rgba(5, 5, 5, 0.12);
+        }
+
+        h4 {
+            color: $base-color-1;
+        }
+
+        p {
+            opacity: 0.8;
+        }
+
+        [class*='fa'] {
+            margin-right: 5px;
+            opacity: 0.6;
+        }
+    }
+}

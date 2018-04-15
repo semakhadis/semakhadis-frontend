@@ -4,12 +4,11 @@ import { Component } from '@angular/core'
     selector: 'v-progress-bar',
     template: `
         <ng-progress
-            [color]="'red'"
+            [color]="'#f4e8b8'"
             [thick]="true"
             [ease]="'linear'"
             [showSpinner]="false"
         ></ng-progress>
     `
 })
-export class ProgressBarComponent {
-}
+export class ProgressBarComponent {}
