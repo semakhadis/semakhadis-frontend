@@ -4,6 +4,6 @@ import { Component } from '@angular/core'
     template: `
         <router-outlet></router-outlet>
     `,
+    styleUrls: ['base-kitab.component.scss']
 })
-export class BaseKitabComponent {
-}
+export class BaseKitabComponent {}

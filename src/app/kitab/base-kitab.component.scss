@@ -1,0 +1,35 @@
+@import '~scss/base/variables';
+
+::ng-deep .sh-top {
+    p {
+        margin-bottom: 0;
+        color: #818181;
+        line-height: 50px;
+    }
+
+    .form-group {
+        .control-label {
+            position: absolute;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 10px;
+            margin-left: 10px;
+            margin-top: 8px;
+            color: #818181;
+            letter-spacing: 0.8px;
+        }
+        .form-control,
+        select {
+            min-width: 180px;
+            height: 50px;
+            border: 0;
+            background-color: #ededed;
+            appearance: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: $base-color-1;
+            font-weight: 600;
+            padding-top: 16px;
+        }
+    }
+}

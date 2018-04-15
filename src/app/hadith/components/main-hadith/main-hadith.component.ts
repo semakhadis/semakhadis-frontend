@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core'
 import { NgProgress } from 'ngx-progressbar'
 
 @Component({
-    selector: 'v-main-hadith',
     templateUrl: 'main-hadith.component.html',
     styleUrls: ['main-hadith.component.scss']
 })

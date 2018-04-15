@@ -7,6 +7,7 @@ import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { FooterComponent } from 'Components/footer/footer.component'
 import { DistanceInWordsToNowPipe } from 'Pipes/distance-in-words-to-now.pipe'
 import { ContactUsComponent } from 'Components/contact-us/contact-us.component'
+import { HadithListComponent } from 'Components/hadith-list/hadith-list.component'
 import { DownloadAppComponent } from 'Components/download-app/download-app.component'
 import { KitabWidgetComponent } from 'Components/kitab-widget/kitab-widget.component'
 import { BannerTitleComponent } from 'Components/banner-title/banner-title.component'
@@ -20,12 +21,13 @@ const sharedComponent = [
     NavbarComponent,
     FooterComponent,
     ContactUsComponent,
+    HadithListComponent,
+    KitabWidgetComponent,
     DownloadAppComponent,
     BannerTitleComponent,
     HadithSearchComponent,
-    CtaVolunteerComponent,
-    KitabWidgetComponent,
     HadithWidgetComponent,
+    CtaVolunteerComponent,
     ChapterWidgetComponent,
     HadithNextPrevComponent,
     DistanceInWordsToNowPipe
@@ -34,11 +36,6 @@ const sharedComponent = [
 @NgModule({
     exports: [...sharedComponent],
     declarations: [...sharedComponent],
-    imports: [
-        FormsModule,
-        RouterModule,
-        CommonModule,
-        NgxCarouselModule,
-    ]
+    imports: [FormsModule, RouterModule, CommonModule, NgxCarouselModule]
 })
 export class SharedModule {}
