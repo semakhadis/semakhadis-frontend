@@ -9,6 +9,7 @@ import { Router, NavigationEnd } from '@angular/router'
 export class NavbarComponent {
     currentRoute: string
     isResolving: boolean
+    hamburgerIsActive: boolean
 
     constructor(private router: Router) {
         this.router.events.subscribe(event => {
