@@ -1,4 +1,4 @@
- <!--<v-banner-title [title]="'Hadith'"></v-banner-title> -->
+<!--<v-banner-title [title]="'Hadith'"></v-banner-title> -->
 <section class="sh-hadith-section">
     <div class="container">
         <div class="row sh-top">
@@ -14,7 +14,7 @@
                         <option>5</option>
                     </select>
                 </div>
-
+                <div class="clearfix"></div>
             </div>
         </div>
 
@@ -22,7 +22,7 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
                 <div class="panel">
                     <div class="panel-body">
-                        <ul class="list-unstyled">
+                        <!-- <ul class="list-unstyled">
                             <a routerLink="/hadith/create" class="btn btn-base pull-right">Add new hadith</a>
 
                             <ng-container *ngFor="let hadith of state.hadiths">
@@ -36,7 +36,9 @@
                                 </li>
                             </ng-container>
 
-                        </ul>
+                        </ul> -->
+                        <!-- <pre>{{ state.hadiths }}</pre> -->
+                        <v-hadith-list [hadiths]="state.hadiths"></v-hadith-list>
                     </div>
                 </div>
             </div>

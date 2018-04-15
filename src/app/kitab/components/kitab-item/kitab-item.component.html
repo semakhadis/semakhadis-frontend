@@ -1,0 +1,42 @@
+<v-banner-title [title]="'Kitab'"></v-banner-title>
+
+<section class="sh-kitab-item-section">
+    <div class="container">
+        <div class="row sh-top">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+                <p class="pull-left">250 hadis tersenarai dalam kitab [nama kitab]</p>
+                <div class="form-group pull-right">
+                    <label for="filter-list" class="control-label">Sort</label>
+                    <select id="filter-list" class="form-control">
+                        <option>Alphabet A - Z</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="panel">
+                    <div class="panel-body">
+                        <v-hadith-list [hadiths]="state.hadiths"></v-hadith-list>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                <div class="kitab-detail">
+                    <img src="/assets/images/kitab.jpg" alt="kitab" />
+                    <h4>Al-Manar Al-Munif</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur fugit quia omnis tempore labore
+                        in quasi, optio delectus sequi perspiciatis distinctio.</p>
+                    <p>
+                        <i class="fas fa-user"></i> Pengarang 1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

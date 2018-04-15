@@ -2,9 +2,8 @@ import { Component } from '@angular/core'
 
 @Component({
     template: `
-        base kitab component
         <router-outlet></router-outlet>
     `,
+    styleUrls: ['base-kitab.component.scss']
 })
-export class BaseKitabComponent {
-}
+export class BaseKitabComponent {}
