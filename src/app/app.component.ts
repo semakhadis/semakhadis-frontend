@@ -1,3 +1,4 @@
+import 'Helpers/rxjs.compose'
 import { Component } from '@angular/core'
 
 @Component({

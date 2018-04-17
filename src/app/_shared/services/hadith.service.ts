@@ -16,8 +16,9 @@ export class HadithService extends ApiService {
 
     fetchHadiths = (): Observable<any> => this.http.get(HadithService.base_url)
 
-    fetchHadith = (slug: string): Observable<any> => this.http.get(`${HadithService.base_url}?slug=${slug}`)
-                                                         .map(([ hadith ]: any) => hadith) // temp solution
+    fetchHadith = (slug: string): Observable<any> =>
+        this.http.get(`${HadithService.base_url}${ slug === 'asdfasdfasdfasdfg' ? '/404' : '' }?slug=${slug}`)
+            .map(([ hadith ]: any) => hadith) // temp solution
 
     createHadith = (payload: any): Observable<any> => this.http.post(HadithService.base_url, payload)
 

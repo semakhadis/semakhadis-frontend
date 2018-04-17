@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router'
+import { Error404Component } from 'Components/404/404.component'
 import { FooterComponent } from 'Components/footer/footer.component'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { ContactUsComponent } from 'Components/contact-us/contact-us.component'
@@ -53,6 +54,10 @@ export const APP_NAV: Routes = [
             {
                 path: 'contact-us',
                 component: ContactUsComponent,
+            },
+            {
+                path: '404',
+                component: Error404Component,
             },
             { path: '**', redirectTo: '/404' },
         ]

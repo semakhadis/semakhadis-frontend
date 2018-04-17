@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 import { NgxCarouselModule } from 'ngx-carousel'
 import { TruncatePipe } from 'Pipes/truncate.pipe'
+import { Error404Component } from 'Components/404/404.component'
 import { NavbarComponent } from 'Components/navbar/navbar.component'
 import { FooterComponent } from 'Components/footer/footer.component'
 import { DistanceInWordsToNowPipe } from 'Pipes/distance-in-words-to-now.pipe'
@@ -23,6 +24,7 @@ const sharedComponent = [
     TruncatePipe,
     NavbarComponent,
     FooterComponent,
+    Error404Component,
     ContactUsComponent,
     HadithListComponent,
     KitabWidgetComponent,
