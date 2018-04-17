@@ -1,16 +1,18 @@
+import 'rxjs/add/operator/delay'
+import 'rxjs/add/operator/catch'
+import 'rxjs/add/operator/finally'
+import 'rxjs/add/observable/empty'
 import { Observable } from 'rxjs/Observable'
 
-function apply(functions: Array<Function>) {
-    functions = [].concat(functions);
-
-    return functions.reduce((observable, func) => func(observable));
-}
-
-Observable.prototype.apply = apply
-
-declare module 'rxjs/Observable' {
-    interface Observable<T> {
-        apply: typeof apply;
-    }
-}
-
+/**
+ * Run `Finally` and `Catch`
+ * @param {Function} onFinish
+ * @param {(error: any) => any} onError
+ * @returns {(source) => any}
+ */
+export const chainrxjs = (onFinish: Function, onError?: (error: any) => any) => source =>
+    source.finally(() => onFinish())
+          .catch(error => {
+              onError && onError(error)
+              return Observable.empty()
+          });

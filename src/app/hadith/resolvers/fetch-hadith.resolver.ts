@@ -1,10 +1,7 @@
-import 'rxjs/add/operator/delay'
-import 'rxjs/add/operator/catch'
-import 'rxjs/add/operator/finally'
-import 'rxjs/add/observable/empty'
+import 'rxjs/add/operator/let'
 import { Injectable } from '@angular/core'
 import { NgProgress } from 'ngx-progressbar'
-import { Observable } from 'rxjs/Observable'
+import { chainrxjs } from 'Helpers/rxjs.compose'
 import { HadithService } from 'Services/hadith.service'
 import { ActivatedRouteSnapshot, Resolve, Router } from '@angular/router'
 
@@ -23,15 +20,12 @@ export class FetchHadithResolver implements Resolve<any> {
         const hadith_slug: string = activateRoute.paramMap.get('slug')
 
         return this.hadithService.fetchHadith(hadith_slug)
-                   .delay(1000)
-                   .finally(() => this.ngProgress.done())
-                   .catch(error => {
-                       this.route.navigate([ '/404', {
+                   .let(chainrxjs(
+                       () => this.ngProgress.done(),
+                       (error) => this.route.navigate([ '/404', {
                            err: 'Error',
-                           msg: `Could not find ${hadith_slug}`, error
+                           msg: `Could not find asdasdasd`, error
                        } ])
-
-                       return Observable.empty()
-                   })
+                   ))
     };
 }
