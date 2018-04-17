@@ -1,10 +1,15 @@
-<nav class="navbar navbar-sh" [ngClass]="isIndexRoute() ? 'navbar-light' : 'navbar-base'">
+<nav class="navbar navbar-sh" [ngClass]="currentRoute === '/' ? 'navbar-light' : 'navbar-base'">
     <div class="container-fluid">
         <input type="checkbox" id="navbar-toggle-cbox">
         <div class="navbar-header">
-            <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                (click)="toggleHamburger()" aria-controls="navbar">
-                <span class="hamburger hamburger--elastic-r" [ngClass]="{ 'is-active': hamburgerIsActive }" aria-label="Menu" aria-controls="navbar">
+            <label for="navbar-toggle-cbox"
+                   class="navbar-toggle collapsed"
+                   data-toggle="collapse" data-target="#navbar"
+                   aria-expanded="false" aria-controls="navbar"
+                   (click)="this.hamburgerIsActive = !this.hamburgerIsActive">
+                <span class="hamburger hamburger--elastic-r"
+                      aria-label="Menu" aria-controls="navbar"
+                      [ngClass]="{ 'is-active': hamburgerIsActive }">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
@@ -14,7 +19,7 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navbar">
-            <form class="navbar-left sh-form hidden-xs hidden-sm" *ngIf="!isIndexRoute()">
+            <form class="navbar-left sh-form hidden-xs hidden-sm" *ngIf="currentRoute !== '/'">
                 <v-hadith-search></v-hadith-search>
             </form>
             <ul class="nav navbar-nav navbar-right">
@@ -42,7 +47,3 @@
 </nav>
 
 <router-outlet></router-outlet>
-
-<v-cta-volunteer></v-cta-volunteer>
-
-<v-footer></v-footer>
