@@ -1,8 +1,6 @@
 import { Component } from '@angular/core'
 
 @Component({
-    template: `
-        this is login
-    `
+    templateUrl: 'login.component.html'
 })
 export class LoginComponent {}
