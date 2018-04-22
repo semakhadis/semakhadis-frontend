@@ -24,6 +24,13 @@
             "Auth/d/*": ["app/auth/directives/*"],
             "Auth/p/*": ["app/auth/pipes/*"],
 
+            "Admin/*": ["app/admin/*"],
+            "Admin/c/*": ["app/admin/components/*"],
+            "Admin/r/*": ["app/admin/resolvers/*"],
+            "Admin/s/*": ["app/admin/services/*"],
+            "Admin/d/*": ["app/admin/directives/*"],
+            "Admin/p/*": ["app/admin/pipes/*"],
+
             "ContactDeveloper/*": ["app/contact-developer/*"],
             "ContactDeveloper/c/*": ["app/contact-developer/components/*"],
             "ContactDeveloper/r/*": ["app/contact-developer/resolvers/*"],

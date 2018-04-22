@@ -2,15 +2,19 @@
     <div class="container-fluid">
         <input type="checkbox" id="navbar-toggle-cbox">
         <div class="navbar-header">
-            <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                aria-controls="navbar" (click)="this.hamburgerIsActive = !this.hamburgerIsActive">
-                <span class="hamburger hamburger--elastic-r" aria-label="Menu" aria-controls="navbar" [ngClass]="{ 'is-active': hamburgerIsActive }">
+            <label for="navbar-toggle-cbox" class="navbar-toggle collapsed"
+                   data-toggle="collapse" data-target="#navbar"
+                   aria-expanded="false" aria-controls="navbar"
+                   (click)="toggleHamburger()">
+                <span class="hamburger hamburger--elastic-r" aria-label="Menu" aria-controls="navbar"
+                      [ngClass]="{ 'is-active': hamburgerIsActive }">
                     <span class="hamburger-box">
                         <span class="hamburger-inner"></span>
                     </span>
                 </span>
             </label>
-            <a routerLinkActive="active" class="navbar-brand" routerLink="/" [routerLinkActiveOptions]="{ exact: true }">
+            <a routerLinkActive="active" class="navbar-brand" routerLink="/"
+               [routerLinkActiveOptions]="{ exact: true }">
                 <div class="logo"></div>
             </a>
         </div>
@@ -32,6 +36,9 @@
                 <!-- <li routerLinkActive="active">
                     <a routerLink="/donation">Donation</a>
                 </li> -->
+                <!--<li routerLinkActive="active">
+                    <a routerLink="/admin">Admin</a>
+                </li>-->
                 <li routerLinkActive="active">
                     <a routerLink="/contact-us">Contact Us</a>
                 </li>

@@ -1,26 +1,24 @@
-import 'rxjs/add/operator/delay'
 import 'rxjs/add/operator/finally'
 import { Injectable } from '@angular/core'
 import { NgProgress } from 'ngx-progressbar'
 import { HadithService } from 'Services/hadith.service'
-import { ActivatedRouteSnapshot, Resolve } from '@angular/router'
+import { ActivatedRouteSnapshot, Resolve, Router } from '@angular/router'
 
 @Injectable()
 export class FetchHadithResolver implements Resolve<any> {
 
-    constructor(
-        private ngProgress: NgProgress,
-        private hadithService: HadithService) {
+    constructor(private route: Router,
+                private ngProgress: NgProgress,
+                private hadithService: HadithService) {
     }
 
-    resolve = (route: ActivatedRouteSnapshot) => {
+    resolve = (activateRoute: ActivatedRouteSnapshot) => {
 
         this.ngProgress.start()
 
-        const hadith_slug: string = route.paramMap.get('slug')
+        const hadith_slug: string = activateRoute.paramMap.get('slug')
 
         return this.hadithService.fetchHadith(hadith_slug)
-                   .delay(1000)
                    .finally(() => this.ngProgress.done())
     };
 }
