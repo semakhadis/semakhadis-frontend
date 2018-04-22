@@ -1,14 +1,9 @@
 // ----------------------------------- Bootstrap ----------------------------------- //
 @import 'bs/bs';
-
 @import '~bootstrap-sass/assets/stylesheets/bootstrap/tables';
-
-// ----------------------------------- Core ----------------------------------- //
-
-
 // ----------------------------------- Packages ----------------------------------- //
 @import '~ng2-toasty/bundles/style-bootstrap.css';
-
+// ----------------------------------- Core ----------------------------------- //
 @import '~assets/fonts/fonts';
 @import 'base/base';
 @import 'mixins/mixins';

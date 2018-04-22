@@ -37,7 +37,6 @@
             "testTsconfig": "tsconfig.spec.json",
             "prefix": "v",
             "styles": ["scss/app.scss"],
-            "scripts": [],
             "environmentSource": "environments/environment.ts",
             "environments": {
                 "dev": "environments/environment.ts",

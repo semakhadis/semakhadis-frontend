@@ -1,0 +1,42 @@
+@import '~scss/base/variables';
+@import '~scss/mixins/mixins';
+
+.sh-base-auth-layout {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+
+    .auth-container {
+        vertical-align: middle;
+        display: table-cell;
+        margin: auto;
+        overflow-y: auto;
+        padding: 20px;
+
+        ::ng-deep .box {
+            position: relative;
+            border: 0;
+            width: 400px;
+            margin: 0 auto;
+
+            @include media-breakpoint-down(sm) {
+                width: auto;
+            }
+
+            a {
+                line-height: 35px;
+            }
+
+            h2 {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    img {
+        height: 50px;
+    }
+}

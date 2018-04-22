@@ -34,9 +34,6 @@
             "Donation/*": ["app/donation/*"],
             "Donation/c/*": ["app/donation/components/*"],
 
-            "FAQ/*": ["app/faq/*"],
-            "FAQ/c/*": ["app/faq/*"],
-
             "Hadith/*": ["app/hadith/*"],
             "Hadith/c/*": ["app/hadith/components/*"],
             "Hadith/r/*": ["app/hadith/resolvers/*"],
