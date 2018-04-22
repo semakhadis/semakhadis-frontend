@@ -10,6 +10,10 @@ export const APP_NAV: Routes = [
         loadChildren: './auth/auth.module#AuthModule'
     },
     {
+        path: 'admin',
+        loadChildren: './admin/admin.module#AdminModule'
+    },
+    {
         path: '',
         component: NavbarComponent,
         children: [
@@ -51,12 +55,12 @@ export const APP_NAV: Routes = [
             {
                 path: 'contact-us',
                 component: ContactUsComponent
-            },
-            {
-                path: '404',
-                component: Error404Component,
-            },
-            { path: '**', redirectTo: '/404' },
+            }
         ]
-    }
+    },
+    {
+        path: '404',
+        component: Error404Component,
+    },
+    { path: '**', redirectTo: '/404' },
 ]
