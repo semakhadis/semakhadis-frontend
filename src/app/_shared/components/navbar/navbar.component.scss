@@ -71,7 +71,7 @@
 
 .navbar-brand {
     float: left;
-    padding: $navbar-padding-vertical $navbar-padding-horizontal;
+    padding: 10px $navbar-padding-horizontal;
     font-size: $font-size-large;
     line-height: $line-height-computed;
     height: $navbar-height;
@@ -81,8 +81,14 @@
         text-decoration: none;
     }
 
-    > img {
+    > .logo {
         display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 145px;
+        height: 50px;
+        transition: all 0.3s ease-in;
     }
 
     @media (min-width: $grid-float-breakpoint) {
@@ -301,6 +307,10 @@
 
     .navbar-brand {
         color: $base-color-1;
+
+        > .logo {
+            background-image: url('/assets/images/l4.svg');
+        }
     }
 
     .navbar-nav {
@@ -315,6 +325,10 @@
 
     .navbar-brand {
         color: $white;
+
+        > .logo {
+            background-image: url('/assets/images/lw4.svg');
+        }
     }
 
     .navbar-nav {
