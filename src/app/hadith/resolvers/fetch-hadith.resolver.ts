@@ -1,7 +1,6 @@
-import 'rxjs/add/operator/let'
+import 'rxjs/add/operator/finally'
 import { Injectable } from '@angular/core'
 import { NgProgress } from 'ngx-progressbar'
-import { chainrxjs } from 'Helpers/rxjs.compose'
 import { HadithService } from 'Services/hadith.service'
 import { ActivatedRouteSnapshot, Resolve, Router } from '@angular/router'
 
@@ -20,12 +19,6 @@ export class FetchHadithResolver implements Resolve<any> {
         const hadith_slug: string = activateRoute.paramMap.get('slug')
 
         return this.hadithService.fetchHadith(hadith_slug)
-                   .let(chainrxjs(
-                       () => this.ngProgress.done(),
-                       (error) => this.route.navigate([ '/404', {
-                           err: 'Error',
-                           msg: `Could not find asdasdasd`, error
-                       } ])
-                   ))
+                   .finally(() => this.ngProgress.done())
     };
 }
