@@ -8,16 +8,18 @@ import { Router, NavigationEnd } from '@angular/router'
 })
 export class NavbarComponent {
     currentRoute: string
-    isResolving: boolean
     hamburgerIsActive: boolean
 
     constructor(private router: Router) {
         this.router.events.subscribe(event => {
             if (event instanceof NavigationEnd) {
-                this.isResolving = false
                 this.currentRoute = router.url
             }
         })
+    }
+
+    toggleHamburger = () => {
+        this.hamburgerIsActive = !this.hamburgerIsActive
     }
 
 }
