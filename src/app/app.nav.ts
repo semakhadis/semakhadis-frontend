@@ -7,7 +7,7 @@ import { ContactUsComponent } from 'Components/contact-us/contact-us.component'
 export const APP_NAV: Routes = [
     {
         path: 'auth',
-        loadChildren: './auth/auth.module#AuthModule',
+        loadChildren: './auth/auth.module#AuthModule'
     },
     {
         path: '',
@@ -19,41 +19,38 @@ export const APP_NAV: Routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: './landing/landing.module#LandingModule',
+                        loadChildren: './landing/landing.module#LandingModule'
                     },
                     {
                         path: 'about',
-                        loadChildren: './about/about.module#AboutModule',
+                        loadChildren: './about/about.module#AboutModule'
                     },
                     {
                         path: 'contact-developer',
-                        loadChildren: './contact-developer/contact-developer.module#ContactDeveloperModule',
+                        loadChildren:
+                            './contact-developer/contact-developer.module#ContactDeveloperModule'
                     },
                     {
                         path: 'donation',
-                        loadChildren: './donation/donation.module#DonationModule',
-                    },
-                    {
-                        path: 'faq',
-                        loadChildren: './faq/faq.module#FaqModule',
+                        loadChildren: './donation/donation.module#DonationModule'
                     },
                     {
                         path: 'reference',
-                        loadChildren: './reference/reference.module#ReferenceModule',
+                        loadChildren: './reference/reference.module#ReferenceModule'
                     },
                     {
                         path: 'hadith',
-                        loadChildren: './hadith/hadith.module#HadithModule',
+                        loadChildren: './hadith/hadith.module#HadithModule'
                     },
                     {
                         path: 'kitab',
-                        loadChildren: './kitab/kitab.module#KitabModule',
+                        loadChildren: './kitab/kitab.module#KitabModule'
                     },
                 ]
             },
             {
                 path: 'contact-us',
-                component: ContactUsComponent,
+                component: ContactUsComponent
             },
             {
                 path: '404',
@@ -61,8 +58,8 @@ export const APP_NAV: Routes = [
             },
             { path: '**', redirectTo: '/404' },
         ]
-    },
-];
+    }
+]
 
 /*
 export const MAIN_ROUTES: Routes = [

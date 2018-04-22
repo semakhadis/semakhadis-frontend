@@ -1,10 +1,7 @@
 import { Component } from '@angular/core'
 
 @Component({
-    template: `
-        this is base auth component
-        <router-outlet></router-outlet>
-    `,
+    templateUrl: 'base-auth.component.html',
+    styleUrls: ['base-auth.component.scss']
 })
-export class BaseAuthComponent {
-}
+export class BaseAuthComponent {}

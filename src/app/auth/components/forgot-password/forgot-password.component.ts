@@ -1,8 +1,6 @@
 import { Component } from '@angular/core'
 
 @Component({
-    template: `
-        this is forgot password
-    `
+    templateUrl: 'forgot-password.component.html'
 })
 export class ForgotPasswordComponent {}
