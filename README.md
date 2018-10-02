@@ -35,6 +35,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Kamarool Karim
 * Azriz Haziq
 * Khai Rahman
+* Izzu Islam
+* Ahmad Zaidi
 
 ## License 
 
