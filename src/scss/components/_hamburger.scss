@@ -18,7 +18,6 @@ $hamburger-hover-filter: opacity(50%) !default;
     padding: $hamburger-padding-y $hamburger-padding-x;
     display: inline-block;
     cursor: pointer;
-
     transition-property: opacity, filter;
     transition-duration: $hamburger-hover-transition-duration;
     transition-timing-function: $hamburger-hover-transition-timing-function;
@@ -35,7 +34,8 @@ $hamburger-hover-filter: opacity(50%) !default;
     &:hover {
         @if $hamburger-hover-use-filter == true {
             filter: $hamburger-hover-filter;
-        } @else {
+        }
+        @else {
             opacity: $hamburger-hover-opacity;
         }
     }
@@ -93,7 +93,7 @@ $hamburger-hover-filter: opacity(50%) !default;
         }
 
         &::after {
-            top: ($hamburger-layer-height * 2) + ($hamburger-layer-spacing * 2);
+            top: $hamburger-layer-height * 2 + $hamburger-layer-spacing * 2;
             transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
     }
