@@ -2,9 +2,9 @@
 
 will add later
 
-## How to imports
+## How to import
 
-Full modules resolvers inside `tsconfig.json.paths` file. 
+Full modules resolvers can be found inside `tsconfig.json.paths` file. 
 
 ## Env
 
