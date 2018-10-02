@@ -5,10 +5,12 @@ section {
         padding: 50px;
     }
 
+
     @include media-breakpoint-down(md) {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+
 
     .section-heading {
         .section-title {

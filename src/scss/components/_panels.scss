@@ -40,7 +40,7 @@
 .panel-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: ceil(($font-size-base * 1.125));
+    font-size: ceil($font-size-base * 1.125);
     color: inherit;
 
     > a,
@@ -57,7 +57,8 @@
     padding: $panel-footer-padding;
     background-color: $panel-footer-bg;
     border-top: 1px solid $panel-inner-border;
-    @include border-bottom-radius(($panel-border-radius - 1));
+
+    @include border-bottom-radius($panel-border-radius - 1);
 }
 
 // List groups in panels
@@ -79,7 +80,8 @@
         &:first-child {
             .list-group-item:first-child {
                 border-top: 0;
-                @include border-top-radius(($panel-border-radius - 1));
+
+                @include border-top-radius($panel-border-radius - 1);
             }
         }
 
@@ -87,22 +89,26 @@
         &:last-child {
             .list-group-item:last-child {
                 border-bottom: 0;
-                @include border-bottom-radius(($panel-border-radius - 1));
+
+                @include border-bottom-radius($panel-border-radius - 1);
             }
         }
     }
+
     > .panel-heading + .panel-collapse > .list-group {
         .list-group-item:first-child {
             @include border-top-radius(0);
         }
     }
 }
+
 // Collapse space between when there's no additional content.
 .panel-heading + .list-group {
     .list-group-item:first-child {
         border-top-width: 0;
     }
 }
+
 .list-group + .panel-footer {
     border-top-width: 0;
 }
@@ -123,63 +129,71 @@
             padding-right: $panel-body-padding;
         }
     }
+
     // Add border top radius for first one
     > .table:first-child,
     > .table-responsive:first-child > .table:first-child {
-        @include border-top-radius(($panel-border-radius - 1));
+        @include border-top-radius($panel-border-radius - 1);
 
         > thead:first-child,
         > tbody:first-child {
             > tr:first-child {
-                border-top-left-radius: ($panel-border-radius - 1);
-                border-top-right-radius: ($panel-border-radius - 1);
+                border-top-left-radius: $panel-border-radius - 1;
+                border-top-right-radius: $panel-border-radius - 1;
 
                 td:first-child,
                 th:first-child {
-                    border-top-left-radius: ($panel-border-radius - 1);
+                    border-top-left-radius: $panel-border-radius - 1;
                 }
+
                 td:last-child,
                 th:last-child {
-                    border-top-right-radius: ($panel-border-radius - 1);
+                    border-top-right-radius: $panel-border-radius - 1;
                 }
             }
         }
     }
+
     // Add border bottom radius for last one
     > .table:last-child,
     > .table-responsive:last-child > .table:last-child {
-        @include border-bottom-radius(($panel-border-radius - 1));
+        @include border-bottom-radius($panel-border-radius - 1);
 
         > tbody:last-child,
         > tfoot:last-child {
             > tr:last-child {
-                border-bottom-left-radius: ($panel-border-radius - 1);
-                border-bottom-right-radius: ($panel-border-radius - 1);
+                border-bottom-left-radius: $panel-border-radius - 1;
+                border-bottom-right-radius: $panel-border-radius - 1;
 
                 td:first-child,
                 th:first-child {
-                    border-bottom-left-radius: ($panel-border-radius - 1);
+                    border-bottom-left-radius: $panel-border-radius - 1;
                 }
+
                 td:last-child,
                 th:last-child {
-                    border-bottom-right-radius: ($panel-border-radius - 1);
+                    border-bottom-right-radius: $panel-border-radius - 1;
                 }
             }
         }
     }
+
     > .panel-body + .table,
     > .panel-body + .table-responsive,
     > .table + .panel-body,
     > .table-responsive + .panel-body {
         border-top: 1px solid $table-border-color;
     }
+
     > .table > tbody:first-child > tr:first-child th,
     > .table > tbody:first-child > tr:first-child td {
         border-top: 0;
     }
+
     > .table-bordered,
     > .table-responsive > .table-bordered {
         border: 0;
+
         > thead,
         > tbody,
         > tfoot {
@@ -188,12 +202,14 @@
                 > td:first-child {
                     border-left: 0;
                 }
+
                 > th:last-child,
                 > td:last-child {
                     border-right: 0;
                 }
             }
         }
+
         > thead,
         > tbody {
             > tr:first-child {
@@ -203,6 +219,7 @@
                 }
             }
         }
+
         > tbody,
         > tfoot {
             > tr:last-child {
@@ -213,6 +230,7 @@
             }
         }
     }
+
     > .table-responsive {
         border: 0;
         margin-bottom: 0;
@@ -248,6 +266,7 @@
 
     .panel-footer {
         border-top: 0;
+
         + .panel-collapse .panel-body {
             border-bottom: 1px solid $panel-inner-border;
         }
